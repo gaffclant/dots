@@ -1,0 +1,51 @@
+From 03a3f7222416c3be997f393e5246e5f0560a5df3 Mon Sep 17 00:00:00 2001
+From: Georgios Oxinos <georgios.oxinos.extern@elinvar.de>
+Date: Fri, 19 Feb 2021 00:53:04 +0100
+Subject: [PATCH] [PATCH] [dwm][hideborder] patch that allows hiding border of
+ active client
+
+---
+ config.def.h | 1 +
+ dwm.c        | 7 +++++++
+ 2 files changed, 8 insertions(+)
+
+diff --git a/config.def.h b/config.def.h
+index 1c0b587..6086523 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -64,6 +64,7 @@ static Key keys[] = {
+ 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+ 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+ 	{ MODKEY,                       XK_b,      togglebar,      {0} },
++	{ MODKEY|ShiftMask,             XK_b,      hideborder,     {0} },
+ 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
+ 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+ 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
+diff --git a/dwm.c b/dwm.c
+index 664c527..a5b5342 100644
+--- a/dwm.c
++++ b/dwm.c
+@@ -169,6 +169,7 @@ static void focus(Client *c);
+ static void focusin(XEvent *e);
+ static void focusmon(const Arg *arg);
+ static void focusstack(const Arg *arg);
++static void hideborder(const Arg *arg);
+ static Atom getatomprop(Client *c, Atom prop);
+ static int getrootptr(int *x, int *y);
+ static long getstate(Window w);
+@@ -856,6 +857,12 @@ focusstack(const Arg *arg)
+ 	}
+ }
+ 
++void
++hideborder(const Arg *arg)
++{
++	XSetWindowBorder(dpy, selmon->sel->win, scheme[SchemeSel][ColBg].pixel);
++}
++
+ Atom
+ getatomprop(Client *c, Atom prop)
+ {
+-- 
+2.27.0
+
