@@ -1,0 +1,64 @@
+[2022-06-14 16:03:00.367] [exthost] [info] Extension host with pid 5235 started
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-14 16:03:00.367] [exthost] [info] Eager extensions activated
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 16:03:00.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 16:03:10.073] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-14 16:03:10.081] [exthost] [info] Extension host with pid 5235 exiting with code 0
+[2022-06-14 16:03:11.715] [exthost] [info] Extension host with pid 5558 started
+[2022-06-14 16:03:11.716] [exthost] [info] Skipping acquiring lock for /home/gaffclant/.config/Code - OSS/User/workspaceStorage/81f3a48c9364947cf5b4f650fedc9866.
+[2022-06-14 16:03:11.808] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-06-14 16:03:11.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-06-14 16:03:11.833] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-06-14 16:03:11.850] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust, startup: true, activationEvent: 'workspaceContains:Cargo.toml'
+[2022-06-14 16:03:11.891] [exthost] [info] ExtensionService#_doActivateExtension serayuzgur.crates, startup: true, activationEvent: 'workspaceContains:Cargo.toml'
+[2022-06-14 16:03:11.997] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-06-14 16:03:12.108] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-06-14 16:03:12.152] [exthost] [info] Eager extensions activated
+[2022-06-14 16:03:12.167] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 16:03:12.187] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-06-14 16:03:15.844] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+[2022-06-14 16:03:40.154] [exthost] [error] [rust-lang.rust-analyzer] provider FAILED
+[2022-06-14 16:03:40.155] [exthost] [error] TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-06-14 16:04:32.283] [exthost] [error] [rust-lang.rust-analyzer] provider FAILED
+[2022-06-14 16:04:32.283] [exthost] [error] TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-06-14 16:04:35.856] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.references-view, startup: false, activationEvent: 'onCommand:editor.action.showReferences'
+[2022-06-14 16:06:03.009] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-06-14 16:06:03.039] [exthost] [error] Canceled: Canceled
+	at Object.N [as canceled] (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:5:1172)
+	at i._remoteCall (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:13900)
+	at Proxy.p.<computed>.U.charCodeAt.p.<computed> (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:89:10296)
+	at m._doExecuteCommand (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:30156)
+	at m.executeCommand (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:29554)
+	at Object.executeCommand (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:99:31355)
+	at _c (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:39:60241)
+	at yv (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:85:1723)
+	at Object.jS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:85:1692)
+	at u._deactivate (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:90:11690)
+	at /usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:90:10231
+	at Array.map (<anonymous>)
+	at u.deactivateAll (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:90:10218)
+	at E.terminate (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:880)
+	at d (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:36250)
+	at Socket.<anonymous> (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:33946)
+	at Socket.emit (events.js:327:22)
+	at Pipe.<anonymous> (net.js:673:12)
+[2022-06-14 16:06:03.043] [exthost] [info] Extension host with pid 5558 exiting with code 0

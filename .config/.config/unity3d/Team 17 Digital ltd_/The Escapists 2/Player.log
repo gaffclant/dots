@@ -1,0 +1,962 @@
+
+Selecting FBConfig
+GLX_FBCONFIG_ID=1009
+GLX_BUFFER_SIZE=32
+GLX_DOUBLEBUFFER=1
+GLX_RED_SIZE=8
+GLX_GREEN_SIZE=8
+GLX_BLUE_SIZE=8
+GLX_ALPHA_SIZE=8
+GLX_DEPTH_SIZE=24
+GLERROR: ld.so: object '/home/gaffclant/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+Setting breakpad minidump AppID = 641990
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198918761722 [API loaded no]
+AK Error: Source starvation: 67629150
+Wwise warning: AkInitializer.cs Awake() was not executed yet.  Set the Script Execution Order properly so the current call is executed after.Wwise warning: AkInitializer.cs Awake() was not executed yet.  Set the Script Execution Order properly so the current call is executed after.Wwise warning: AkInitializer.cs Awake() was not executed yet.  Set the Script Execution Order properly so the current call is executed after.ap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Setting maxVSyncInterval to 4
+Renderer: Mesa Intel(R) HD Graphics 4600 (HSW GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 22.1.3
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buf
+fers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buf
+fer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotro
+pic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_ins
+tanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control
+ GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 53606384
+Begin MonoManager ReloadAssembly
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.Networking.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.ClipperLib.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.ClipperLib.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.JsonFx.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.JsonFx.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.Poly2Tri.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Pathfinding.Poly2Tri.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/SampleClassLibrary.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/SampleClassLibrary.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Rewired_Core.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Rewired_Core.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Rewired_Linux_Lib.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Rewired_Linux_Lib.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/TileSystem.Runtime.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/TileSystem.Runtime.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/BadWordFilter.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/BadWordFilter.dll into Unity Child Domain
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Photon3Unity3D.dll (this message is harmless)
+Loading /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/Photon3Unity3D.dll into Unity Child Domain
+- Completed reload, in  0.620 seconds
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/System.dll (this message is harmless)
+Default vsync count 2
+requesting resize -1 x -1
+Using native desktop resolution 2880 x 1620
+requesting fullscreen 2880 x 1620 at 0 Hz
+Desktop is 2880 x 1620 @ 60 Hz
+Using libudev for joystick management
+
+
+Importing game controller configs
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2852 x 1545
+Changing real window size to 2852 x 1545
+Changing real window size to 2852 x 1545
+Platform assembly: /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Managed/System.Xml.dll (this message is harmless)
+UnloadTime: 3.761000 ms
+WwiseUnity: Initialize sound engine ...
+WwiseUnity: Sound engine initialized.
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+ASSET MANAGER: loading bundle global
+ASSET MANAGER: loading bundle fonts.dynamic
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7f6f81ffb640 -> priority: 1 
+  Thread -> id: 7f6f817fa640 -> priority: 1 
+The referenced script on this Behaviour (Game Object 'Managers') is missing!
+ 
+(Filename:  Line: 1754)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 3)
+UnloadTime: 2.637000 ms
+ASSET MANAGER: creating duplicate instance. Deleting myself
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+===== Graphics Device Info ======
+ThinkPad
+PC
+1f042338f8e8bcae6b071a4262c7382e
+Mesa Intel(R) HD Graphics 4600 (HSW GT2)
+Intel
+1046
+Device Version: OpenGL 4.6 (Core Profile) Mesa 22.1.3
+Memory Size:512
+Multithreaded Enabled: True
+Shader Model Version: 50
+Max Texture Size:16384
+Supports Image Effects:True
+===== Graphics Device Info End ======
+ +++++   MAINLINE   +++++++  
+The referenced script on this Behaviour (Game Object 'PersistentScripts') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PersistentScripts') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'PersistentScripts') is missing!
+ 
+(Filename:  Line: 1754)
+
+Bootstrap.ProcessCommandLine - Processing command line "/home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2.x86_64"
+ *1* command line /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2.x86_64
+T17NetRoomGameView.ClearCustomProperties: !!!!!!!!
+**DART** GLOBALSTART_MODE INIT
+  ************  STEAM PLATFORM - Awake *******  
+  ************  Platform       Awake *******  
+  *********  Gaffclant   dfgdfgdfg   
+ASSET MANAGER: loading bundle rewiredinputsettings
+**DART** GLOBALSTART_MODE START_LOAD_REWIRED
+GoogleAnalyticsV3,Start: Google Analytics Auto Instrumentation Game Launch
+GoogleAnalyticsV3:Initializing Google Analytics 0.1.
+GoogleAnalyticsV3:Initializing Google Analytics -- Ver = DesktopCrossplay.28.666175
+GoogleAnalyticsV3.Awake: Starting ExceptionReporting.
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 14327.
+Total: 53.341000 ms (FindLiveObjects: 1.097000 ms CreateObjectMapping: 1.720000 ms MarkObjects: 49.216000 ms  DeleteObjects: 1.307000 ms)
+
+**DART** GLOBALSTART_MODE WAIT_FOR_LOAD_REWIRED
+STEAM ACHIEVEMENTS: OnUserStatsReceived result=k_EResultOK
+SteamUGCManager: Failed to query UGC items! Result: k_EResultNoConnection
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Non platform assembly: data-0x65041c0 (this message is harmless)
+Fallback handler could not load library /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Mono/x86_64/data-0x65041c0.so
+Non platform assembly: data-0x6528470 (this message is harmless)
+Fallback handler could not load library /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Mono/x86_64/data-0x6528470.so
+Non platform assembly: data-0x65420f0 (this message is harmless)
+Fallback handler could not load library /home/gaffclant/.local/share/Steam/steamapps/common/The Escapists 2/TheEscapists2_Data/Mono/x86_64/data-0x65420f0.so
+ASSET MANAGER: loading bundle boot
+**DART** GLOBALSTART_MODE START_LOAD_BOOT
+**DART** GLOBALSTART_MODE WAIT_FOR_LOAD_BOOT
+BootFlowMode = INIT
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** GLOBALSTART_MODE SHOW_BOOT
+Can't execute Disconnect() while not connected. Nothing changed. State: PeerCreated
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ *************    OnMasterClientSwitched   *******************   
+OnMasterClientSwitched: Master client is ID 1 local: True 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = SHOW_LEGAL_PANEL
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+requesting resize 2880 x 1620
+Using native desktop resolution 2880 x 1620
+requesting fullscreen 2880 x 1620 at 60 Hz
+Desktop is 2880 x 1620 @ 60 Hz
+ASSET MANAGER: loading bundle loading
+ASSET MANAGER: loading bundle frontend
+BootFlowMode = WF_LEGAL_PANEL
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Changing real window size to 2880 x 1620
+ASSET MANAGER: loading bundle frontendeditor
+BootFlowMode = SHOW_UNITY_PANEL
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = SHOW_AUTOSAVE_PANEL
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = WF_AUTOSAVE_PANEL
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Changing real window size to 2880 x 1620
+BootFlowMode = SHOW_LOGO_VIDEO
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = SHOW_BOOT_SCREEN
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = WAIT_FOR_BOOT_SCREEN
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = SHOW_START
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = WAIT_FOR_CURTAIN_RAISE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** Start
+********  CheckAndExecStartUpCommand   ***** 
+BootFlowMode = WAIT_FOR_START
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = POST_SIGNIN
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = WAIT_FOR_SLIDEOFF
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = POST_START
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = LOADING_GLOBAL_SAVEDATA
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = LOADING_SAVEMANAGER_DATA
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BootFlowMode = WF_LOAD_OR_NEWSAVE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BENCHMARK: 1.732042s - 6fps.
+requesting resize 2560 x 1600
+requesting fullscreen 2560 x 1600 at 0 Hz
+Desktop is 2880 x 1620 @ 60 Hz
+**DART** GLOBALSTART_MODE KILL_BOOT
+BootFlowMode = DONE
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+  ******  DeleteBootScene  ***
+**DART** GLOBALSTART_MODE WAIT_FOR_KILL_BOOT
+ASSET MANAGER: unloading bundle boot all assets = True
+  ******  DeleteBootScene  ** 1 *
+Unloading 3 Unused Serialized files (Serialized files now loaded: 11)
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 52545.
+Total: 88.538994 ms (FindLiveObjects: 6.221000 ms CreateObjectMapping: 2.973000 ms MarkObjects: 77.067001 ms  DeleteObjects: 2.278000 ms)
+
+  ******  DeleteBootScene  ** 2 *
+**DART** GLOBALSTART_MODE WAIT_FOR_LOAD_FRONTEND
+**DART** GLOBALSTART_MODE CHECK_INVITES
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+Ignoring dlc RobinsonUpdate due to save reasons
+Ignoring dlc UnlockUpdate due to save reasons
+Showing DLC popup DLC06
+**DART** Menu GIVE ME A TITLE!
+**DART** GLOBALSTART_MODE SHOW_FRONTEND
+**DART** OnSelect OKButton
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+Showing DLC popup DLC05
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect OKButton
+**DART** OnSelect CampaignButton
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+Showing DLC popup DLC04
+**DART** OnSelect OKButton
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect StoreButton
+**DART** OnSelect CampaignButton
+**DART** OnSelect CampaignButton
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+We have already seen dlc DLC04
+Showing DLC popup DLC03
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect OKButton
+**DART** OnSelect OKButton
+**DART** OnSelect CampaignButton
+**DART** OnSelect CampaignButton
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+We have already seen dlc DLC04
+We have already seen dlc DLC03
+Showing DLC popup DLC02
+**DART** OnSelect OKButton
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect OKButton
+**DART** OnSelect CampaignButton
+**DART** OnSelect CampaignButton
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+We have already seen dlc DLC04
+We have already seen dlc DLC03
+We have already seen dlc DLC02
+Showing DLC popup DLC1
+**DART** OnSelect OKButton
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect CampaignButton
+**DART** OnSelect CampaignButton
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+We have already seen dlc DLC04
+We have already seen dlc DLC03
+We have already seen dlc DLC02
+We have already seen dlc DLC1
+Ignoring dlc SeasonPass because its not available on our platform
+Showing DLC popup SeasonPass
+**DART** OnSelect OKButton
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect OKButton
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+We have already seen dlc DLC04
+We have already seen dlc DLC03
+We have already seen dlc DLC02
+We have already seen dlc DLC1
+Ignoring dlc SeasonPass because its not available on our platform
+We have already seen dlc SeasonPass
+**DART** OnSelect HelpAndOptionsButton
+**DART** Menu Text.Menu.Settings
+**DART** OnSelect TabButton_03
+**DART** OnSelect TabButton_02
+**DART** Dialog SAVE CHANGES
+**DART** OnSelect Confirm
+**DART** OnSelect TabButton_01
+**DART** OnSelect ApplyButton
+**DART** OnSelect HelpAndOptionsButton
+**DART** Menu 
+Processing 11 potential dlc popups
+Ignoring dlc EscapistsSwitch because its not available on our platform
+We have already seen dlc RobinsonUpdate
+We have already seen dlc UnlockUpdate
+We have already seen dlc DLC06
+We have already seen dlc DLC05
+We have already seen dlc DLC04
+We have already seen dlc DLC03
+We have already seen dlc DLC02
+We have already seen dlc DLC1
+Ignoring dlc SeasonPass because its not available on our platform
+We have already seen dlc SeasonPass
+**DART** OnSelect CampaignButton
+**DART** Menu Text.Menu.Campaign
+T17NetRoomGameView.ClearCustomProperties: !!!!!!!!
+**DART** Menu GIVE ME A TITLE!
+**DART** OnSelect OKButton
+**DART** OnSelect PrisonArrowLeft
+**DART** OnSelect PrisonArrowRight
+**DART** OnSelect PrisonArrowRight
+**DART** OnSelect PrisonArrowLeft
+**DART** OnSelect NewGameButton
+**DART** GLOBALSTART_MODE START_LEVEL_LOAD
+T17PhotonNetworking: Setting TimePingInterval to 10000ms
+**DART** GLOBALSTART_MODE LOADING_FLOW_DUMMY_STATE
+**DART** GLOBALSTART_MODE KILL_FRONTEND
+**DART** GLOBALSTART_MODE KILL_FRONTEND
+**DART** GLOBALSTART_MODE WAIT_FOR_KILL_FRONTEND
+ASSET MANAGER: unloading bundle frontend all assets = True
+ASSET MANAGER: unloading bundle frontendeditor all assets = True
+Unloading 1 Unused Serialized files (Serialized files now loaded: 7)
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 19226.
+Total: 54.486000 ms (FindLiveObjects: 2.319000 ms CreateObjectMapping: 1.062000 ms MarkObjects: 51.027000 ms  DeleteObjects: 0.077000 ms)
+
+**DART** GLOBALSTART_MODE LOADING_LEVEL
+ASSET MANAGER: loading bundle aibehaviours
+**DART** GLOBALSTART_MODE WAIT_FOR_LOADING_LEVEL
+ASSET MANAGER: loading bundle objectivefiles
+ASSET MANAGER: loading bundle tutorial_prison
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1526)
+
+The referenced script on this Behaviour (Game Object 'Cameras') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Main Camera 2') is missing!
+ 
+(Filename:  Line: 1754)
+
+The referenced script on this Behaviour (Game Object 'Progroups2_Groups_Container_Object') is missing!
+ 
+(Filename:  Line: 1754)
+
+<b>Graph:</b> Graph is already Active.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<b>Graph:</b> Graph is already Active.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<b>Graph:</b> Graph is already Active.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+<b>Graph:</b> Graph is already Active.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** GLOBALSTART_MODE LOADING_OTHER_INGAME_SCENES_HUD
+ ***** Start Loading  HUD Menu Scene
+ASSET MANAGER: loading bundle hud
+Loading HUD Menu Scene
+**DART** GLOBALSTART_MODE WAIT_FOR_OTHER_SCENES_HUD
+Loaded HUD Menu Scene
+ ****  HUDMenuFlow   Start  2619.728
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ ****  HUDMenuFlow   Start  Bottom 2619.762
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ ***** Start Loading  Ingame Scene
+ASSET MANAGER: loading bundle ingamemenus
+**DART** GLOBALSTART_MODE WAIT_FOR_OTHER_SCENES_IGM
+The referenced script on this Behaviour (Game Object 'Resolution') is missing!
+ 
+(Filename:  Line: 1754)
+
+ ****   MADNESS OF Pre Made behaviours list  2620.897
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** GLOBALSTART_MODE SETUP_AREA_MANAGERS
+**DART** GLOBALSTART_MODE WAIT_FOR_OTHER_SCENES_PART2
+**DART** GLOBALSTART_MODE SETUP_ITEM_MANAGER
+ ++++ SpecialInit    m_PreBuildItemCreatePool 
+ ++++ SpecialInit    m_PreBuildItemCreatePool 
+ ++++ SpecialInit    m_PreBuildItemCreatePool 
+ ++++ SpecialInit    m_PreBuildItemCreatePool 
+**DART** GLOBALSTART_MODE WAIT_FOR_OTHER_SCENES_PART3
+ **** behaviours nets = 21  monos =  4562
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ **** Time Add Classes Done 2622.348
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** GLOBALSTART_MODE WAIT_FOR_OTHER_SCENES_WAITFORPLAYERS
+**DART** GLOBALSTART_MODE WAIT_FOR_CUSTOMISATION
+**DART** GLOBALSTART_MODE LOAD_CUSTOMISATION
+**DART** GLOBALSTART_MODE WAIT_FOR_INIT_LEVEL_ITEMS
+ ********   Guard Tower Manager StartInit    ***
+ ********   Guard Tower Manager StartInit    ***  0
+ ********   Guard Tower Manager StartInit  actually   inited  ***  
+**DART** GLOBALSTART_MODE WAIT_FOR_INIT_LEVEL_ITEMS_WAITFORPLAYERS
+**DART** GLOBALSTART_MODE REQUEST_PLAYER_STARTING_ITEMS
+Cannot send op: 248 Not connected. PeerState: Disconnected
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** GLOBALSTART_MODE WAIT_FOR_PLAYER_STARTING_ITEMS
+**DART** GLOBALSTART_MODE WAIT_FOR_PLAYER_STARTING_ITEMS_WAITFORPLAYERS
+**DART** GLOBALSTART_MODE SPAWN_LEVEL_PLAYER_OBJECTS
+ ............................... Gamers ..............
+G3 : ViewID:-1 PPID:1 GamerName:Gaffclant Controller:0 Location:LOCAL Primary:True Active:True
+ ............................... Gamers ..............
+**DART** GLOBALSTART_MODE SPAWN_LEVEL_PLAYER_OBJECTS_WAITFORPLAYERS
+**DART** GLOBALSTART_MODE NETWORK_INIT_MANAGERS
+**DART** GLOBALSTART_MODE INIT_MANAGERS
+[Culling] CreateBuckets
+[Culler] CreateBuckets took 0.008544922 seconds
+**DART** IN_LEVEL
+**DART** GLOBALSTART_MODE WAIT_FOR_PROFANITY_FILTER
+Using default layout group.  Aspect=1.6   group=3
+TransferOwnership() view 2974 to: 1 Time: 565
+I want to play intro cutscene
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** GLOBALSTART_MODE WAIT_FOR_PLAYERS
+**DART** GLOBALSTART_MODE CHECK_INVITES_DURING_LOAD
+**DART** GLOBALSTART_MODE IN_LEVEL
+OnRoutineChangeEnd Routine: LightsOut
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.LightsOut
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Player_Actor
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Inmate
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** OnSelect InventoryItem (1)
+**DART** OnSelect InventoryItem
+**DART** OnSelect InventoryItem (4)
+**DART** OnSelect InventoryItem (5)
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+**DART** OnSelect InventoryItem_HUD_EQUIPED
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+**DART** OnSelect InventoryItem_HUD (1)
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+**DART** OnSelect CraftButton
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+  ****** FindRecipe FindRecipe FindRecipe
+OnRoutineChangeEnd Routine: JobTime
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.RollCall
+**DART** OnSelect ClickOffButton
+**DART** OnSelect CraftButton
+OnRoutineChangeEnd Routine: RollCall
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.RollCall
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+OnRoutineChangeEnd Routine: FreeTime
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.FreeTime
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem
+**DART** OnSelect InventoryItem (1)
+**DART** OnSelect InventoryItem_HUD (1)
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem
+**DART** OnSelect InventoryItem (6)
+**DART** OnSelect InventoryItem (6)
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_2
+**DART** OnSelect InventoryItem_HUD_3
+**DART** OnSelect InventoryItem_HUD_4
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+OnRoutineChangeEnd Routine: MealTime
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.LunchTime
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_2
+**DART** OnSelect InventoryItem_HUD_3
+**DART** OnSelect InventoryItem_HUD_4
+OnRoutineChangeEnd Routine: FreeTime
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.FreeTime
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_4
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+**DART** OnSelect InventoryItem
+**DART** OnSelect InventoryItem
+**DART** OnSelect InventoryItem (2)
+**DART** OnSelect InventoryItem (9)
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_2
+  ******    OpenPauseMenu 
+CharacterAnimator.Start: Failed to find NetView : ProfileCharacter
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+**DART** OnSelect Character
+  ******    HidePauseMenu 
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_2
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 369 (unique id)
+OnRoutineChangeEnd Routine: Lockdown
+ ++++++  m_CurrentRoutine  set to rountine HUD.Routine.Lockdown
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 448 (unique id)
+**DART** OnSelect InventoryItem_HUD_Current
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 452 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 487 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 489 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 491 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 502 (unique id)
+**DART** OnSelect InventoryItem_HUD_Current
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 505 (unique id)
+**DART** OnSelect InventoryItem_HUD_0
+**DART** OnSelect InventoryItem_HUD_1
+**DART** OnSelect InventoryItem_HUD_2
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 508 (unique id)
+**DART** OnSelect InventoryItem_HUD_3
+**DART** OnSelect InventoryItem_HUD_4
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 510 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 516 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 519 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 520 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 525 (unique id)
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Inmate
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Guard
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Player_Actor
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Guard (2)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Guard (3)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Guard (5)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Guard (4)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+CharacterAnimator.Start: Failed to find NetView : Cutscene_Guard (1)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 534 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 536 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 539 (unique id)
+Path Failed : Computation Time 0.00 ms Searched Nodes 0
+Error: 
+Path Number 542 (unique id)
+**DART** GLOBALSTART_MODE LOAD_RESULTS
+Cannot send op: 248 Not connected. PeerState: Disconnected
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+T17PhotonNetworking: Setting TimePingInterval to 1000ms
+ASSET MANAGER: loading bundle roundresults
+**DART** GLOBALSTART_MODE WAIT_FOR_LOAD_RESULTS
+**DART** GLOBALSTART_MODE END_LEVEL_BEHIND_RESULTS
+**DART** Menu Results Normal
+**DART** OnSelect ContinueButton
+**DART** GLOBALSTART_MODE LOADING_FLOW_DUMMY_STATE
+     +++++++++++++   Out call  to    DeleteLevelScene 
+**DART** GLOBALSTART_MODE WAIT_FOR_END_LEVEL
+ASSET MANAGER: unloading bundle roundresults all assets = True
+ASSET MANAGER: unloading bundle ingamemenus all assets = True
+ASSET MANAGER: unloading bundle hud all assets = True
+     +++++++++++++   DeleteLevelScene  
+Cleaning up static batch objects
+  ** UNLOADING SCENE   Tutorial_Prison
+Cleaning up static batch objects
+ *****  
+ *****  
+ *****  
+ *****  
+ASSET MANAGER: unloading bundle tutorial_prison all assets = True
+ASSET MANAGER: unloading bundle aibehaviours all assets = True
+T17NetRoomGameView.ClearCustomProperties: !!!!!!!!
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8)
+**DART** GLOBALSTART_MODE WAIT_FOR_END_LEVEL_GC
+
+Unloading 4986 unused Assets to reduce memory usage. Loaded Objects now: 19364.
+Total: 104.051003 ms (FindLiveObjects: 1.965000 ms CreateObjectMapping: 1.021000 ms MarkObjects: 88.847000 ms  DeleteObjects: 12.217000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 8)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 19364.
+Total: 80.159004 ms (FindLiveObjects: 1.027000 ms CreateObjectMapping: 1.044000 ms MarkObjects: 78.056000 ms  DeleteObjects: 0.032000 ms)
+
+**DART** GLOBALSTART_MODE RELOAD_FRONTEND
+ASSET MANAGER: loading bundle frontend
+**DART** GLOBALSTART_MODE WAIT_FOR_RELOAD_FRONTEND
+ASSET MANAGER: loading bundle frontendeditor
+**DART** GLOBALSTART_MODE LOADING_FLOW_DUMMY_STATE
+Changing real window size to 2880 x 1620
+**DART** OnSelect NewGameButton
+**DART** Menu Text.Menu.Campaign
+T17NetRoomGameView.ClearCustomProperties: !!!!!!!!
+**DART** GLOBALSTART_MODE CHECK_INVITES
+**DART** GLOBALSTART_MODE SHOW_FRONTEND
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+Changing real window size to 2880 x 1620
+ *************    OnMasterClientSwitched   *******************   
+OnMasterClientSwitched: Master client is ID 1 local: True 
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ *****  

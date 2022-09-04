@@ -1,0 +1,121 @@
+[2022-08-15 08:12:34.181] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'visualstudioexptteam.vscodeintellicode-completions' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.202] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.202] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.202] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.203] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.203] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.204] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.204] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.204] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.205] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.205] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.205] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.206] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.206] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.206] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.207] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'tabs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:12:34.207] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-15 08:15:15.152] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:16:47.255] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:16:50.991] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:45.797] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:49.167] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:52.975] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:59.437] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:00.986] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:02.773] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:47.813] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:48.880] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:51.475] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:57.008] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:57.904] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:59.304] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:13.007] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:14.624] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:18.791] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:14.176] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:16.632] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:19.302] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:22.511] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:26.582] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:27.583] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:29.351] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:22:07.942] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)

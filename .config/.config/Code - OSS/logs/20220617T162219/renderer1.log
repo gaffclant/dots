@@ -1,0 +1,41 @@
+[2022-06-17 16:22:26.411] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-17 16:22:26.702] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-17 16:22:31.751] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-06-17 16:22:36.686] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-06-17 16:22:36.834] [renderer1] [warning] UNRESPONSIVE extension host: 'rust-lang.rust' took 92% of 4982.018ms, saved PROFILE here: 'file:///tmp/exthost-ca943c.cpuprofile' [{"id":"gc","total":23069,"percentage":0},{"id":"program","total":7110,"percentage":0},{"id":"rust-lang.rust","total":4592061,"percentage":92},{"id":"self","total":280753,"percentage":6},{"id":"serayuzgur.crates","total":75149,"percentage":2},{"id":"vscode.debug-auto-launch","total":991,"percentage":0},{"id":"vscode.git-base","total":338,"percentage":0},{"id":"vscode.ipynb","total":2297,"percentage":0}]
+[2022-06-17 16:23:11.033] [renderer1] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-06-17 16:23:13.412] [renderer1] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-06-17 16:23:14.518] [renderer1] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-06-17 16:24:09.816] [renderer1] [error] [uncaught exception in main]: spawn ENOTDIR: Error: spawn ENOTDIR
+    at ChildProcess.spawn (internal/child_process.js:403:11)
+    at Object.spawn (child_process.js:562:9)
+    at /usr/lib/code-oss/resources/app/out/vs/code/electron-main/main.js:28:822
+[2022-06-17 16:55:15.378] [renderer1] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)

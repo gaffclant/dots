@@ -1,0 +1,5 @@
+
+[Default Applications]
+x-scheme-handler/discord-474605546457137157=discord-474605546457137157.desktop
+x-scheme-handler/quaver=Quaver-scheme-handler.desktop
+x-scheme-handler/discord-529050037532098580=discord-529050037532098580.desktop

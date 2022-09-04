@@ -1,0 +1,14 @@
+[2022-06-17 16:22:20.616] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-17 16:22:20.629] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-06-17 16:22:20.815] [main] [info] ExtensionHostStarterWorker created
+[2022-06-17 16:22:25.041] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-17 16:22:25.211] [main] [info] Starting extension host with pid 10057 (fork() took 12 ms).
+[2022-06-17 16:22:25.211] [main] [info] ExtensionHostStarterWorker.start() took 14 ms.
+[2022-06-17 16:22:30.209] [main] [info] Enabling inspect port on extension host with pid 10057.
+[2022-06-17 16:24:09.815] [main] [error] [uncaught exception in main]: Error: spawn ENOTDIR
+[2022-06-17 16:24:09.815] [main] [error] Error: spawn ENOTDIR
+    at ChildProcess.spawn (internal/child_process.js:403:11)
+    at Object.spawn (child_process.js:562:9)
+    at /usr/lib/code-oss/resources/app/out/vs/code/electron-main/main.js:28:822
+[2022-06-17 16:55:16.577] [main] [info] Waiting for extension host with pid 10057 to exit.
+[2022-06-17 16:55:16.578] [main] [info] Extension host with pid 10057 exited with code: 0, signal: null.

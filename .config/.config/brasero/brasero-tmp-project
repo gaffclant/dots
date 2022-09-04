@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<braseroproject>
+	<version>0.2</version>
+	<label>Data disc (02 Aug 22)</label>
+	<track>
+		<data>
+			<graft>
+				<path>/Yoko_Takahashi_-_A_Cruel_Angel's_Thesis_(Director's_Edit_Ver.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FYoko_Takahashi_-_A_Cruel_Angel%27s_Thesis_%28Director%27s_Edit_Version%29.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/LiSA_-_ROCK-mode.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FLiSA_-_ROCK-mode.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/THE_ORAL_CIGARETTES_-_Kyouran_Hey_Kids!!.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FTHE_ORAL_CIGARETTES_-_Kyouran_Hey_Kids%21%21.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/FalKKonE,_Rena_-_Bad_Apple!!!.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FFalKKonE%2C_Rena_-_Bad_Apple%21%21%21.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/Cepheid,_Zephyrianna_-_Lie_of_Providence.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FCepheid%2C_Zephyrianna_-_Lie_of_Providence.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/Ado_-_odo.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FAdo_-_odo.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/Selphius_-_HENTAI.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FSelphius_-_HENTAI.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/Selphius_-_Scarborough_Fair_(Resolution).mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FSelphius_-_Scarborough_Fair_%28Resolution%29.mp3-converted.wav</uri>
+			</graft>
+			<graft>
+				<path>/Rachie_-_The_Vampire.mp3-converted.wav</path>
+				<uri>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FRachie_-_The_Vampire.mp3-converted.wav</uri>
+			</graft>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FYoko_Takahashi_-_A_Cruel_Angel's_Thesis_(Director's_Edit_Version).mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FLiSA_-_ROCK-mode.mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FTHE_ORAL_CIGARETTES_-_Kyouran_Hey_Kids!!.mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FFalKKonE%2C_Rena_-_Bad_Apple!!!.mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FCepheid%2C_Zephyrianna_-_Lie_of_Providence.mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FAdo_-_odo.mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FSelphius_-_HENTAI.mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FSelphius_-_Scarborough_Fair_(Resolution).mp3-converted.wav</excluded>
+			<excluded>file%3A%2F%2F%2Fhome%2Fgaffclant%2FMusic%2Fcd%2FRachie_-_The_Vampire.mp3-converted.wav</excluded>
+		</data>
+	</track>
+</braseroproject>

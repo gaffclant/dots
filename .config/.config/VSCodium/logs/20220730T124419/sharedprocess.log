@@ -1,0 +1,12 @@
+[2022-07-30 12:44:21.373] [sharedprocess] [info] Starting worker process with pid 27203 (type: fileWatcher, window: 1).
+[2022-07-30 12:44:33.614] [sharedprocess] [info] Worker process with pid 27203 terminated normally (type: fileWatcher, window: 1).
+[2022-07-30 12:44:34.560] [sharedprocess] [info] Starting worker process with pid 27481 (type: fileWatcher, window: 1).
+[2022-07-30 12:45:24.607] [sharedprocess] [info] Worker process with pid 27481 terminated normally (type: fileWatcher, window: 1).
+[2022-07-30 12:45:26.049] [sharedprocess] [info] Starting worker process with pid 28800 (type: fileWatcher, window: 1).
+[2022-07-30 12:47:54.764] [sharedprocess] [info] Getting Manifest... tomoki1207.pdf
+[2022-07-30 12:47:54.892] [sharedprocess] [info] Installing extension: tomoki1207.pdf
+[2022-07-30 12:47:57.951] [sharedprocess] [info] Downloaded extension: tomoki1207.pdf /home/gaffclant/.config/VSCodium/CachedExtensionVSIXs/tomoki1207.pdf-1.1.0
+[2022-07-30 12:47:58.291] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.8d458f73-0ef0-4311-a6b5-7fcecaf17888: tomoki1207.pdf
+[2022-07-30 12:47:59.351] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/tomoki1207.pdf-1.1.0
+[2022-07-30 12:47:59.353] [sharedprocess] [info] Extracting completed. tomoki1207.pdf
+[2022-07-30 12:47:59.354] [sharedprocess] [info] Extension installed successfully: tomoki1207.pdf

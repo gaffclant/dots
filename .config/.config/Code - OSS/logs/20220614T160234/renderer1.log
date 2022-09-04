@@ -1,0 +1,6 @@
+[2022-06-14 16:02:42.521] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-14 16:02:42.704] [renderer1] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-14 16:02:48.461] [renderer1] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-06-14 16:02:50.844] [renderer1] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-06-14 16:02:50.956] [renderer1] [warning] UNRESPONSIVE extension host: 'rust-lang.rust' took 79% of 2416.902ms, saved PROFILE here: 'file:///tmp/exthost-f6f71f.cpuprofile' [{"id":"gc","total":6859,"percentage":0},{"id":"program","total":1838,"percentage":0},{"id":"rust-lang.rust","total":1897931,"percentage":79},{"id":"rust-lang.rust-analyzer","total":82071,"percentage":3},{"id":"self","total":301994,"percentage":12},{"id":"serayuzgur.crates","total":93145,"percentage":4},{"id":"vscode.debug-auto-launch","total":12743,"percentage":1},{"id":"vscode.git-base","total":6333,"percentage":0},{"id":"vscode.ipynb","total":13489,"percentage":1}]
+[2022-06-14 16:02:58.167] [renderer1] [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

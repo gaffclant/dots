@@ -1,0 +1,6 @@
+[2022-07-30 12:40:18.583] [main] [info] update#setState idle
+[2022-07-30 12:40:21.218] [main] [info] Starting extension host with pid 24513 (fork() took 15 ms).
+[2022-07-30 12:40:48.602] [main] [info] update#setState checking for updates
+[2022-07-30 12:40:48.755] [main] [info] update#setState idle
+[2022-07-30 12:41:00.677] [main] [info] Waiting for extension host with pid 24513 to exit.
+[2022-07-30 12:41:00.689] [main] [info] Extension host with pid 24513 exited with code: 0, signal: null.

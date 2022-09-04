@@ -1,0 +1,133 @@
+[2022-08-06 09:57:55.844] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'visualstudioexptteam.vscodeintellicode-completions' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.856] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.856] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.856] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.856] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.857] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.857] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.857] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.859] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.859] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.859] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.860] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.860] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.860] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.860] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.860] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'tabs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 09:57:55.861] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:46:26.973] [renderer1] [error] Failed to execute git
+[2022-08-06 10:56:52.185] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'visualstudioexptteam.vscodeintellicode-completions' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.196] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.196] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.196] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.197] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.197] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.197] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.197] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.197] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.198] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.198] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.198] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.198] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.198] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.198] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.199] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'tabs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:56:52.199] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 10:57:25.632] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 10:57:27.504] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 10:57:33.993] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 10:57:56.833] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:00:32.566] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:03:47.483] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:04:23.145] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:05:03.821] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:15:22.070] [renderer1] [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/gaffclant/Programming/Rust/testing)
+[2022-08-06 11:15:58.224] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'visualstudioexptteam.vscodeintellicode-completions' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.235] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.235] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vsliveshare.vsliveshare' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.235] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.236] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.236] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.236] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.236] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.236] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.236] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-nightly' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-pylance' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookConcatTextDocument' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookEditorDecorationType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'textDocumentNotebook' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'tabs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:15:58.237] [renderer1] [warning] Via 'product.json#extensionEnabledApiProposals' extension 'dbaeumer.vscode-eslint' wants API proposal 'notebookDocumentEvents' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+[2022-08-06 11:17:42.880] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:20:06.515] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:21:00.403] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:21:23.543] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:45:14.124] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:45:17.072] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:46:55.554] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:47:00.308] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:50:23.851] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:50:33.559] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 11:51:00.869] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-06 12:14:45.388] [renderer1] [error] Cannot read properties of undefined (reading 'value'): TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)

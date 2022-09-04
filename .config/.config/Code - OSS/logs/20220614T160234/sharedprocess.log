@@ -1,0 +1,12 @@
+[2022-06-14 16:02:44.089] [sharedprocess] [info] Starting worker process with pid 4820 (type: fileWatcher, window: 1).
+[2022-06-14 16:02:49.970] [sharedprocess] [info] Getting Manifest... rust-lang.rust-analyzer
+[2022-06-14 16:02:50.131] [sharedprocess] [info] Installing extension: rust-lang.rust-analyzer
+[2022-06-14 16:02:51.355] [sharedprocess] [info] Downloaded extension: rust-lang.rust-analyzer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-analyzer-0.3.1091-linux-x64
+[2022-06-14 16:02:52.316] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.d73499f8-80dc-4d0c-9358-f0ec1dce47fd: rust-lang.rust-analyzer
+[2022-06-14 16:02:52.527] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64
+[2022-06-14 16:02:52.528] [sharedprocess] [info] Extracting completed. rust-lang.rust-analyzer
+[2022-06-14 16:02:52.689] [sharedprocess] [info] Extension installed successfully: rust-lang.rust-analyzer
+[2022-06-14 16:02:58.319] [sharedprocess] [info] Starting worker process with pid 5243 (type: fileWatcher, window: 3).
+[2022-06-14 16:02:58.331] [sharedprocess] [info] Worker process with pid 4820 terminated normally (type: fileWatcher, window: 1).
+[2022-06-14 16:03:10.249] [sharedprocess] [info] Worker process with pid 5243 terminated normally (type: fileWatcher, window: 3).
+[2022-06-14 16:03:11.085] [sharedprocess] [info] Starting worker process with pid 5559 (type: fileWatcher, window: 3).

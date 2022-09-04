@@ -1,0 +1,7 @@
+2022/07/31-21:51:12.836 34d9 Reusing MANIFEST /home/gaffclant/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/31-21:51:12.836 34d9 Recovering log #3
+2022/07/31-21:51:12.927 34d9 Reusing old log /home/gaffclant/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2022/07/31-21:51:37.221 15b6 Level-0 table #5: started
+2022/07/31-21:51:37.255 15b6 Level-0 table #5: 46309 bytes OK
+2022/07/31-21:51:37.308 15b6 Delete type=0 #3
+2022/07/31-21:51:37.335 15b6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

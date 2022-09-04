@@ -1,0 +1,21 @@
+[2022-07-05 15:26:06.562] [sharedprocess] [info] Starting worker process with pid 25964 (type: fileWatcher, window: 1).
+[2022-07-05 15:26:10.592] [sharedprocess] [info] Getting Manifest... jscearcy.rust-doc-viewer
+[2022-07-05 15:26:10.593] [sharedprocess] [info] Getting Manifest... rust-lang.rust-analyzer
+[2022-07-05 15:26:10.757] [sharedprocess] [info] Installing extension: jscearcy.rust-doc-viewer
+[2022-07-05 15:26:10.758] [sharedprocess] [info] Installing extension: rust-lang.rust-analyzer
+[2022-07-05 15:26:12.820] [sharedprocess] [info] Downloaded extension: jscearcy.rust-doc-viewer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/jscearcy.rust-doc-viewer-3.0.2
+[2022-07-05 15:26:12.862] [sharedprocess] [info] Downloaded extension: rust-lang.rust-analyzer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-analyzer-0.3.1115-linux-x64
+[2022-07-05 15:26:12.928] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.d925307d-6189-403b-ac79-150dabc36c77: jscearcy.rust-doc-viewer
+[2022-07-05 15:26:12.963] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/jscearcy.rust-doc-viewer-3.0.2
+[2022-07-05 15:26:12.964] [sharedprocess] [info] Extracting completed. jscearcy.rust-doc-viewer
+[2022-07-05 15:26:13.050] [sharedprocess] [info] Extension installed successfully: jscearcy.rust-doc-viewer
+[2022-07-05 15:26:13.366] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.682fc088-8f85-4106-9b3a-6174f4450623: rust-lang.rust-analyzer
+[2022-07-05 15:26:13.408] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64
+[2022-07-05 15:26:13.410] [sharedprocess] [info] Extracting completed. rust-lang.rust-analyzer
+[2022-07-05 15:26:13.458] [sharedprocess] [info] Extension installed successfully: rust-lang.rust-analyzer
+[2022-07-05 15:26:29.951] [sharedprocess] [info] Worker process with pid 25964 terminated normally (type: fileWatcher, window: 1).
+[2022-07-05 15:26:31.428] [sharedprocess] [info] Starting worker process with pid 26571 (type: fileWatcher, window: 1).
+[2022-07-05 15:39:59.194] [sharedprocess] [info] Starting worker process with pid 12804 (type: fileWatcher, window: 3).
+[2022-07-05 15:39:59.541] [sharedprocess] [info] Worker process with pid 26571 terminated normally (type: fileWatcher, window: 1).
+[2022-07-05 15:40:13.293] [sharedprocess] [info] Worker process with pid 12804 terminated normally (type: fileWatcher, window: 3).
+[2022-07-05 15:40:14.621] [sharedprocess] [info] Starting worker process with pid 13208 (type: fileWatcher, window: 3).

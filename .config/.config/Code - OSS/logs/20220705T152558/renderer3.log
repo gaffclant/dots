@@ -1,0 +1,23 @@
+[2022-07-05 15:39:59.248] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-07-05 15:39:59.989] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-07-05 15:40:14.273] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-07-05 15:40:14.502] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-07-05 15:40:18.240] [renderer3] [info] UNRESPONSIVE extension host: starting to profile NOW
+[2022-07-05 15:40:18.477] [renderer3] [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+[2022-07-05 15:40:18.539] [renderer3] [warning] UNRESPONSIVE extension host: 'rust-lang.rust' took 55% of 282.018ms, saved PROFILE here: 'file:///tmp/exthost-775baa.cpuprofile' [{"id":"gc","total":6511,"percentage":2},{"id":"program","total":623,"percentage":0},{"id":"rust-lang.rust","total":155545,"percentage":55},{"id":"rust-lang.rust-analyzer","total":14274,"percentage":5},{"id":"self","total":31570,"percentage":11},{"id":"serayuzgur.crates","total":70140,"percentage":25},{"id":"vscode.debug-auto-launch","total":504,"percentage":0},{"id":"vscode.git-base","total":466,"percentage":0},{"id":"vscode.ipynb","total":2137,"percentage":1}]
+[2022-07-05 15:42:08.680] [renderer3] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:19488)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:19686
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:19643)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:20690
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-07-05 15:42:18.190] [renderer3] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:19488)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:19686
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:19643)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1115-linux-x64/out/main.js:40:20690
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)

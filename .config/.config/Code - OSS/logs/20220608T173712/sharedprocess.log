@@ -1,0 +1,53 @@
+[2022-06-08 17:37:21.859] [sharedprocess] [info] Starting worker process with pid 14113 (type: fileWatcher, window: 1).
+[2022-06-08 17:37:45.932] [sharedprocess] [info] Worker process with pid 14113 terminated normally (type: fileWatcher, window: 1).
+[2022-06-08 17:37:47.380] [sharedprocess] [info] Starting worker process with pid 14751 (type: fileWatcher, window: 1).
+[2022-06-08 17:39:33.603] [sharedprocess] [info] Getting Manifest... rust-lang.rust
+[2022-06-08 17:39:33.614] [sharedprocess] [info] Installing extension: rust-lang.rust
+[2022-06-08 17:39:34.366] [sharedprocess] [info] Downloaded extension: rust-lang.rust /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-0.7.8
+[2022-06-08 17:39:34.692] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.140af14b-8464-4010-9d2d-b6a4095d1af9: rust-lang.rust
+[2022-06-08 17:39:34.753] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8
+[2022-06-08 17:39:34.756] [sharedprocess] [info] Extracting completed. rust-lang.rust
+[2022-06-08 17:39:34.758] [sharedprocess] [info] Extension installed successfully: rust-lang.rust
+[2022-06-08 17:39:36.143] [sharedprocess] [info] Getting Manifest... rust-lang.rust-analyzer
+[2022-06-08 17:39:36.148] [sharedprocess] [info] Installing extension: rust-lang.rust-analyzer
+[2022-06-08 17:39:37.562] [sharedprocess] [info] Downloaded extension: rust-lang.rust-analyzer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-analyzer-0.3.1083-linux-x64
+[2022-06-08 17:39:38.312] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.c303d5a0-17fc-4651-bf95-41fb625ebdee: rust-lang.rust-analyzer
+[2022-06-08 17:39:38.366] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1083-linux-x64
+[2022-06-08 17:39:38.368] [sharedprocess] [info] Extracting completed. rust-lang.rust-analyzer
+[2022-06-08 17:39:38.370] [sharedprocess] [info] Extension installed successfully: rust-lang.rust-analyzer
+[2022-06-08 17:39:40.136] [sharedprocess] [info] Getting Manifest... dustypomerleau.rust-syntax
+[2022-06-08 17:39:40.140] [sharedprocess] [info] Installing extension: dustypomerleau.rust-syntax
+[2022-06-08 17:39:40.795] [sharedprocess] [info] Downloaded extension: dustypomerleau.rust-syntax /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/dustypomerleau.rust-syntax-0.6.0
+[2022-06-08 17:39:40.947] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.a1d8abb4-f9f7-4240-927e-fccc18abb611: dustypomerleau.rust-syntax
+[2022-06-08 17:39:41.040] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/dustypomerleau.rust-syntax-0.6.0
+[2022-06-08 17:39:41.044] [sharedprocess] [info] Extracting completed. dustypomerleau.rust-syntax
+[2022-06-08 17:39:41.048] [sharedprocess] [info] Extension installed successfully: dustypomerleau.rust-syntax
+[2022-06-08 17:39:53.455] [sharedprocess] [info] Getting Manifest... swellaby.rust-pack
+[2022-06-08 17:39:53.466] [sharedprocess] [info] Installing extension: swellaby.rust-pack
+[2022-06-08 17:39:53.655] [sharedprocess] [info] Getting Manifest... bungcip.better-toml
+[2022-06-08 17:39:53.953] [sharedprocess] [info] Getting Manifest... serayuzgur.crates
+[2022-06-08 17:39:54.320] [sharedprocess] [info] Installing extension: bungcip.better-toml
+[2022-06-08 17:39:54.320] [sharedprocess] [info] Installing extension: serayuzgur.crates
+[2022-06-08 17:39:55.059] [sharedprocess] [info] Downloaded extension: bungcip.better-toml /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/bungcip.better-toml-0.3.2
+[2022-06-08 17:39:55.091] [sharedprocess] [info] Downloaded extension: serayuzgur.crates /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/serayuzgur.crates-0.5.10
+[2022-06-08 17:39:55.199] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.7ee6f3e8-c7a1-4496-a12d-a085d8e34960: bungcip.better-toml
+[2022-06-08 17:39:55.209] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.3d6b1356-6eac-4a8d-87f2-1de2a0188d17: serayuzgur.crates
+[2022-06-08 17:39:55.247] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/bungcip.better-toml-0.3.2
+[2022-06-08 17:39:55.249] [sharedprocess] [info] Extracting completed. bungcip.better-toml
+[2022-06-08 17:39:55.283] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/serayuzgur.crates-0.5.10
+[2022-06-08 17:39:55.286] [sharedprocess] [info] Extracting completed. serayuzgur.crates
+[2022-06-08 17:39:55.768] [sharedprocess] [info] Downloaded extension: swellaby.rust-pack /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/swellaby.rust-pack-0.3.3
+[2022-06-08 17:39:55.778] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.9c262adf-f0e4-4c17-b89d-737f4d567fac: swellaby.rust-pack
+[2022-06-08 17:39:55.826] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/swellaby.rust-pack-0.3.3
+[2022-06-08 17:39:55.829] [sharedprocess] [info] Extracting completed. swellaby.rust-pack
+[2022-06-08 17:39:55.830] [sharedprocess] [info] Extension installed successfully: bungcip.better-toml
+[2022-06-08 17:39:55.831] [sharedprocess] [info] Extension installed successfully: serayuzgur.crates
+[2022-06-08 17:39:55.831] [sharedprocess] [info] Extension installed successfully: swellaby.rust-pack
+[2022-06-08 17:40:03.649] [sharedprocess] [info] Getting Manifest... jscearcy.rust-doc-viewer
+[2022-06-08 17:40:03.658] [sharedprocess] [info] Installing extension: jscearcy.rust-doc-viewer
+[2022-06-08 17:40:04.396] [sharedprocess] [info] Downloaded extension: jscearcy.rust-doc-viewer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/jscearcy.rust-doc-viewer-2.0.1
+[2022-06-08 17:40:04.441] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.7bf6b6e7-580c-4c05-9dd8-8599717809bc: jscearcy.rust-doc-viewer
+[2022-06-08 17:40:04.474] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/jscearcy.rust-doc-viewer-2.0.1
+[2022-06-08 17:40:04.475] [sharedprocess] [info] Extracting completed. jscearcy.rust-doc-viewer
+[2022-06-08 17:40:04.476] [sharedprocess] [info] Extension installed successfully: jscearcy.rust-doc-viewer
+[2022-06-09 15:27:49.377] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

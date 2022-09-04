@@ -1,0 +1,20 @@
+[2022-06-14 16:02:59.227] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-14 16:02:59.373] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-14 16:03:11.132] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-14 16:03:11.580] [renderer3] [info] Ignoring configured affinity for 'pub.name' because the extension is unknown or cannot execute.
+[2022-06-14 16:03:40.160] [renderer3] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)
+[2022-06-14 16:04:32.286] [renderer3] [error] (0 , _m.randomUUID) is not a function: TypeError: (0 , _m.randomUUID) is not a function
+	at IS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19143)
+	at Array.map (<anonymous>)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19341
+	at Array.map (<anonymous>)
+	at NS (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:19298)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1091-linux-x64/out/main.js:40:20345
+	at async c.provideHover (/usr/lib/code-oss/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:98658)

@@ -1,0 +1,5 @@
+[2022-07-30 12:57:18.181] [main] [info] update#setState idle
+[2022-07-30 12:57:19.728] [main] [info] Starting extension host with pid 12498 (fork() took 18 ms).
+[2022-07-30 12:57:48.198] [main] [info] update#setState checking for updates
+[2022-07-30 12:57:48.380] [main] [info] update#setState idle
+[2022-07-30 13:46:36.239] [main] [info] Extension host with pid 12498 exited with code: 0, signal: null.

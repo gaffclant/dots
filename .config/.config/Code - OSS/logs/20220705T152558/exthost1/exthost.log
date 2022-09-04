@@ -1,0 +1,25 @@
+[2022-07-05 15:26:05.248] [exthost] [info] Extension host with pid 25826 started
+[2022-07-05 15:26:05.334] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-05 15:26:06.411] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-05 15:26:06.922] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-05 15:26:07.325] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-05 15:26:07.710] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-05 15:26:07.934] [exthost] [info] Eager extensions activated
+[2022-07-05 15:26:07.944] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-05 15:26:07.974] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-05 15:26:29.858] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-07-05 15:26:29.870] [exthost] [info] Extension host with pid 25826 exiting with code 0
+[2022-07-05 15:26:32.743] [exthost] [info] Extension host with pid 26570 started
+[2022-07-05 15:26:32.743] [exthost] [info] Skipping acquiring lock for /home/gaffclant/.config/Code - OSS/User/workspaceStorage/09fa93eca7a366cd913f37cebfe7ecae.
+[2022-07-05 15:26:32.786] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-05 15:26:32.791] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-07-05 15:26:32.794] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-05 15:26:32.817] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-05 15:26:32.840] [exthost] [info] Eager extensions activated
+[2022-07-05 15:26:32.847] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-05 15:26:32.873] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-05 15:26:33.214] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-07-05 15:26:39.281] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-07-05 15:31:19.413] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-07-05 15:39:59.447] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-07-05 15:39:59.459] [exthost] [info] Extension host with pid 26570 exiting with code 0

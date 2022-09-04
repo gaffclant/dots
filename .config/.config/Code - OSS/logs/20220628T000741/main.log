@@ -1,0 +1,3 @@
+[2022-06-28 00:07:41.993] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-28 00:07:42.056] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-06-28 00:07:42.098] [main] [info] ExtensionHostStarterWorker created

@@ -1,0 +1,213 @@
+##############################################
+### Directories
+##############################################
+
+ncmpcpp_directory    = ~/.config/ncmpcpp
+lyrics_directory     = ~/.mpd/lyrics
+mpd_music_dir        = ~/Music
+
+##############################################
+### Connection Settings
+##############################################
+
+mpd_host             = "localhost"
+mpd_port             = "6600"
+mpd_connection_timeout = 5
+mpd_crossfade_time   = 3
+
+##############################################
+### Script
+##############################################
+
+execute_on_song_change = "~/.config/ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh"
+execute_on_player_state_change = 
+
+##############################################
+### UI
+##############################################
+
+# Available values: classic, alternative.
+user_interface       = alternative
+
+header_visibility    = no
+statusbar_visibility = yes
+titles_visibility    = yes
+connected_message_on_startup = yes
+header_text_scrolling = yes
+cyclic_scrolling = no
+
+locked_screen_width_part = 20
+
+clock_display_seconds = yes
+display_volume_level = yes
+display_bitrate = no
+display_remaining_time = no
+
+empty_tag_marker = None
+tags_separator = " | "
+
+##############################################
+### Music Visualizer
+##############################################
+
+visualizer_data_source   = /tmp/mpd.fifo
+visualizer_output_name   = "MPD Visualizer"
+visualizer_in_stereo     = yes
+
+# Available values: spectrum, wave, wave_filled, ellipse.
+visualizer_look 	   = "  "
+visualizer_type 	   = "ellipse"
+visualizer_fps           = 60
+visualizer_autoscale     = no
+visualizer_color         = blue, magenta, red, yellow, green   
+
+# Note: The next few visualization options apply to the spectrum visualizer.
+#visualizer_spectrum_smooth_look = yes
+#visualizer_spectrum_dft_size = 2
+#visualizer_spectrum_gain = 10
+
+##############################################
+### Progress Bar Look
+##############################################
+
+#progressbar_look = "─ "
+#progressbar_look = "▂▂▂"
+progressbar_look = "━━━"
+#progressbar_look = "─●"
+#progressbar_look = "─"
+
+progressbar_color = "black"
+progressbar_elapsed_color = "yellow"
+
+##############################################
+### System Encoding
+##############################################
+
+system_encoding = "UTF-8"
+
+##############################################
+### Delays
+##############################################
+
+# Time of inactivity (in seconds) after playlist highlighting will be disabled
+# (0 = always on).
+playlist_disable_highlight_delay = 5
+
+message_delay_time = 3
+
+##############################################
+### Song Format
+##############################################
+
+# Browser
+song_list_format     = "$5{  %t}|{%f} $9{$3$R %a} $9{$5$R  %l $9}"
+
+# Song Status
+song_status_format   = {$4$b %t}|{%f}$/b$9 $b$8by$9$/b $4$b %a$/b$9 $b$8on$9$/b $4$b %b$/b$9 
+
+# Song Library
+song_library_format	 = {{%a - %t} (%b)}|{%f}
+
+# Alternative UI
+alternative_header_first_line_format = $8 Now Playing:$9 $b$4{%t}|{%f}$/b$/b 
+alternative_header_second_line_format = {$b{$8by $9$4 %a$9}{ $8on$9 $4 %b$9}}
+
+current_item_prefix = $r
+current_item_suffix = $/r
+
+current_item_inactive_column_prefix = "$3 "
+current_item_inactive_column_suffix = "$9"
+
+now_playing_prefix = "$4 $9$b" 
+#now_playing_suffix = "$/b$3 $9"
+now_playing_suffix = "$/b"
+
+browser_playlist_prefix = "$3$bPlaylist - $/b$9"
+
+selected_item_prefix = "$2 "
+selected_item_suffix = "$9"
+
+modified_item_prefix = $3> $9
+
+# Available values for browser_sort_mode are "type", "name", "mtime", "format" and "none".
+browser_sort_mode = type
+browser_sort_format = {%a - }{%t}|{%f} {%l}
+
+song_window_title_format = "{%a - }{%t}|{%f}"
+
+##############################################
+### Columns Settings
+##############################################
+
+# (width of the column)[color of the column]{displayed tag}
+# - r - column will be right aligned
+# - E - if tag is empty, empty tag marker won't be displayed
+
+song_columns_list_format     = "(61)[white]{t|f: Track} (35)[white]{ar: Artist} (5)[white]{lr:Time}"
+
+
+##############################################
+### Colors
+##############################################
+
+main_window_color        = "blue"   
+
+colors_enabled           = yes
+header_window_color      = "blue"
+volume_color             = "blue"
+
+state_line_color         = "blue"
+state_flags_color        = "blue"
+
+color1                   = white
+color2                   = yellow
+
+statusbar_color          = "blue"
+statusbar_time_color     = "blue"
+player_state_color       = "blue"
+alternative_ui_separator_color = "blue"
+window_border_color      = yellow
+active_window_border     = red
+
+
+
+##############################################
+### Various Settings
+##############################################
+
+playlist_show_mpd_host           = no
+playlist_show_remaining_time     = no
+playlist_shorten_total_times     = yes
+playlist_separate_albums         = no
+
+# Possible Display Modes: classic, columns
+playlist_display_mode            = columns
+browser_display_mode             = classic
+search_engine_display_mode       = classic
+playlist_editor_display_mode     = classic
+
+discard_colors_if_item_is_selected = yes
+
+show_duplicate_tags = yes
+
+incremental_seeking = yes
+seek_time = 1
+volume_change_step = 2
+
+autocenter_mode = yes 
+centered_cursor = yes
+
+lyrics_fetchers = azlyrics, genius, musixmatch, sing365, metrolyrics, justsomelyrics, jahlyrics, plyrics, tekstowo, zeneszoveg, internet
+follow_now_playing_lyrics = yes
+fetch_lyrics_for_current_song_in_background = yes
+store_lyrics_in_song_dir = no
+
+allow_for_physical_item_deletion = no
+
+startup_screen = visualizer
+startup_slave_screen = playlist  
+startup_slave_screen_focus = yes
+
+jump_to_now_playing_song_at_start = yes
+
+lines_scrolled = 5

@@ -1,0 +1,10 @@
+[2022-08-09 15:31:29.112] [main] [info] update#setState idle
+[2022-08-09 15:31:30.773] [main] [info] Starting extension host with pid 8481 (fork() took 19 ms).
+[2022-08-09 15:31:59.122] [main] [info] update#setState checking for updates
+[2022-08-09 15:31:59.130] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:101:7169)
+    at SimpleURLLoaderWrapper.emit (node:events:390:28)
+[2022-08-09 15:31:59.130] [main] [info] update#setState idle
+[2022-08-09 16:31:59.224] [main] [info] update#setState checking for updates
+[2022-08-09 16:31:59.485] [main] [info] update#setState available for download
+[2022-08-09 18:00:08.871] [main] [info] Extension host with pid 8481 exited with code: 0, signal: null.

@@ -1,0 +1,9 @@
+[2022-07-30 12:44:19.405] [main] [info] update#setState idle
+[2022-07-30 12:44:20.691] [main] [info] Starting extension host with pid 27128 (fork() took 10 ms).
+[2022-07-30 12:44:33.610] [main] [info] Extension host with pid 27128 exited with code: 0, signal: null.
+[2022-07-30 12:44:34.556] [main] [info] Starting extension host with pid 27482 (fork() took 18 ms).
+[2022-07-30 12:44:49.415] [main] [info] update#setState checking for updates
+[2022-07-30 12:44:49.561] [main] [info] update#setState idle
+[2022-07-30 12:45:24.555] [main] [info] Extension host with pid 27482 exited with code: 0, signal: null.
+[2022-07-30 12:45:26.020] [main] [info] Starting extension host with pid 28799 (fork() took 13 ms).
+[2022-07-30 12:56:50.672] [main] [info] Extension host with pid 28799 exited with code: 0, signal: null.

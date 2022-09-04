@@ -1,0 +1,34 @@
+thread 'request-worker-0' panicked at 'byte index 2381 is not a char boundary; it is inside 'ℤ' (bytes 2380..2383) of `fn main() {
+                 println!("                             ");
+    variables_and_mutability();
+    data_types();
+}
+
+fn variables_and_mutability() {
+                                    println!("                                ");
+
+                `[...]', library/core/src/str/mod.rs:127:5
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+[2022-08-15T13:16:17Z ERROR rls::actions::hover] racer_def: racer panicked
+thread 'request-worker-0' panicked at 'byte index 2381 is not a char boundary; it is inside 'ℤ' (bytes 2380..2383) of `fn main() {
+                 println!("                             ");
+    variables_and_mutability();
+    data_types();
+}
+
+fn variables_and_mutability() {
+                                    println!("                                ");
+
+                `[...]', library/core/src/str/mod.rs:127:5
+[2022-08-15T13:16:20Z ERROR rls::actions::hover] racer_def: racer panicked
+thread 'request-worker-0' panicked at 'byte index 2398 is not a char boundary; it is inside 'ℤ' (bytes 2397..2400) of `fn main() {
+                 println!("                             ");
+    variables_and_mutability();
+    data_types();
+}
+
+fn variables_and_mutability() {
+                                    println!("                                ");
+
+                `[...]', library/core/src/str/mod.rs:127:5
+[2022-08-15T13:18:18Z ERROR rls::actions::hover] racer_def: racer panicked

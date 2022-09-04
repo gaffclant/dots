@@ -1,0 +1,148 @@
+[2022-08-15 08:12:39.309] [exthost] [info] Extension host with pid 20174 started
+[2022-08-15 08:12:39.309] [exthost] [info] Skipping acquiring lock for /home/gaffclant/.config/VSCodium/User/workspaceStorage/e5cb21c4546ead14eef9b8874dcbfdb3.
+[2022-08-15 08:12:39.445] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust, startup: false, activationEvent: 'onLanguage:rust'
+[2022-08-15 08:12:42.777] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-15 08:12:42.972] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-15 08:12:42.980] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-15 08:12:44.569] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-15 08:12:45.061] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-15 08:12:46.131] [exthost] [info] Eager extensions activated
+[2022-08-15 08:12:46.200] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-15 08:12:46.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-15 08:15:15.148] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:15:15.149] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:16:47.253] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:16:47.253] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:16:50.989] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:16:50.989] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:45.795] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:17:45.795] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:49.165] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:17:49.165] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:52.972] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:17:52.973] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:17:59.435] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:17:59.435] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:00.982] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:00.982] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:02.770] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:02.770] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:47.811] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:47.811] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:48.878] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:48.878] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:51.473] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:51.474] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:57.006] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:57.006] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:57.902] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:57.902] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:18:59.302] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:18:59.303] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:13.006] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:19:13.006] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:14.621] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:19:14.622] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:18.789] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:19:18.789] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:19:19.249] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:19:19.249] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:14.174] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:14.174] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:16.630] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:16.630] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:19.300] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:19.300] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:22.509] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:22.509] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:26.580] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:26.580] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:27.581] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:27.581] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:21:29.349] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:21:29.349] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:20:130
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:22:07.931] [exthost] [error] [rust-lang.rust] provider FAILED
+[2022-08-15 08:22:07.931] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'value')
+	at SignatureHelpProvider.hoverToSignatureHelp (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:75:41)
+	at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8/out/src/providers/signatureHelpProvider.js:15:105
+	at async ge.provideSignatureHelp (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:87:57823)
+[2022-08-15 08:22:24.328] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-15 08:22:24.336] [exthost] [info] Extension host with pid 20174 exiting with code 0

@@ -1,0 +1,15 @@
+[2022-06-14T21:02:51.043Z] Validating found git in: git
+[2022-06-14T21:02:51.744Z] Using git 2.36.1 from git
+[2022-06-14T21:02:51.932Z] > git rev-parse --git-dir [20ms]
+[2022-06-14T21:02:51.941Z] Open repository: /home/gaffclant/Programming/Rust/nvlope
+[2022-06-14T21:02:51.978Z] > git symbolic-ref --short HEAD [16ms]
+[2022-06-14T21:02:52.011Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [25ms]
+[2022-06-14T21:02:52.025Z] > git remote --verbose [2ms]
+[2022-06-14T21:02:52.025Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-06-14T21:02:52.031Z] > git config --get commit.template [1ms]
+[2022-06-14T21:02:52.339Z] > git ls-files --stage -- /home/gaffclant/Programming/Rust/nvlope/src/main.rs [59ms]
+[2022-06-14T21:02:57.071Z] > git symbolic-ref --short HEAD [1ms]
+[2022-06-14T21:02:57.078Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master [2ms]
+[2022-06-14T21:02:57.092Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-06-14T21:02:57.092Z] > git remote --verbose [1ms]
+[2022-06-14T21:02:57.101Z] > git config --get commit.template [1ms]

@@ -1,0 +1,5 @@
+[2022-08-15 14:23:46.680] [main] [info] update#setState idle
+[2022-08-15 14:23:48.162] [main] [info] Starting extension host with pid 13174 (fork() took 18 ms).
+[2022-08-15 14:24:16.683] [main] [info] update#setState checking for updates
+[2022-08-15 14:24:16.773] [main] [info] update#setState available for download
+[2022-08-15 14:37:06.747] [main] [info] Extension host with pid 13174 exited with code: 0, signal: null.

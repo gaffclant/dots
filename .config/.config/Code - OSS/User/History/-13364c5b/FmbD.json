@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Catppuccin Noctis",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 20,
+    "editor.fontFamily": "'Fantasque Sans Mono', 'monospace', monospace"
+}

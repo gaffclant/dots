@@ -1,0 +1,5 @@
+[2022-08-15 08:12:28.387] [main] [info] update#setState idle
+[2022-08-15 08:12:34.646] [main] [info] Starting extension host with pid 20174 (fork() took 6 ms).
+[2022-08-15 08:12:58.396] [main] [info] update#setState checking for updates
+[2022-08-15 08:12:58.469] [main] [info] update#setState available for download
+[2022-08-15 08:22:24.350] [main] [info] Extension host with pid 20174 exited with code: 0, signal: null.

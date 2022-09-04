@@ -1,0 +1,178 @@
+INFO [6/14/2022, 4:02:50 PM]: Extension version: 0.3.1083
+INFO [6/14/2022, 4:02:50 PM]: Using configuration {
+  cargoRunner: null,
+  runnableEnv: null,
+  server: { path: null, extraEnv: null },
+  trace: { server: 'off', extension: false },
+  debug: {
+    engine: 'auto',
+    sourceFileMap: {
+      '/rustc/<id>': '${env:USERPROFILE}/.rustup/toolchains/<toolchain-id>/lib/rustlib/src/rust'
+    },
+    openDebugPane: false,
+    engineSettings: {}
+  },
+  assist: { expressionFillDefault: 'todo' },
+  cachePriming: { enable: true, numThreads: 0 },
+  cargo: {
+    autoreload: true,
+    buildScripts: { enable: true, overrideCommand: null, useRustcWrapper: true },
+    features: [],
+    noDefaultFeatures: false,
+    noSysroot: false,
+    target: null,
+    unsetTest: [ 'core' ]
+  },
+  checkOnSave: {
+    allTargets: true,
+    command: 'check',
+    enable: true,
+    extraArgs: [],
+    features: null,
+    noDefaultFeatures: null,
+    overrideCommand: null,
+    target: null
+  },
+  completion: {
+    autoimport: { enable: true },
+    autoself: { enable: true },
+    callable: { snippets: 'fill_arguments' },
+    postfix: { enable: true },
+    privateEditable: { enable: false },
+    snippets: {
+      custom: {
+        'Arc::new': {
+          postfix: 'arc',
+          body: 'Arc::new(${receiver})',
+          requires: 'std::sync::Arc',
+          description: 'Put the expression into an `Arc`',
+          scope: 'expr'
+        },
+        'Rc::new': {
+          postfix: 'rc',
+          body: 'Rc::new(${receiver})',
+          requires: 'std::rc::Rc',
+          description: 'Put the expression into an `Rc`',
+          scope: 'expr'
+        },
+        'Box::pin': {
+          postfix: 'pinbox',
+          body: 'Box::pin(${receiver})',
+          requires: 'std::boxed::Box',
+          description: 'Put the expression into a pinned `Box`',
+          scope: 'expr'
+        },
+        Ok: {
+          postfix: 'ok',
+          body: 'Ok(${receiver})',
+          description: 'Wrap the expression in a `Result::Ok`',
+          scope: 'expr'
+        },
+        Err: {
+          postfix: 'err',
+          body: 'Err(${receiver})',
+          description: 'Wrap the expression in a `Result::Err`',
+          scope: 'expr'
+        },
+        Some: {
+          postfix: 'some',
+          body: 'Some(${receiver})',
+          description: 'Wrap the expression in an `Option::Some`',
+          scope: 'expr'
+        }
+      }
+    }
+  },
+  diagnostics: {
+    disabled: [],
+    enable: true,
+    experimental: { enable: false },
+    remapPrefix: {},
+    warningsAsHint: [],
+    warningsAsInfo: []
+  },
+  files: { excludeDirs: [], watcher: 'client' },
+  highlightRelated: {
+    breakPoints: { enable: true },
+    exitPoints: { enable: true },
+    references: { enable: true },
+    yieldPoints: { enable: true }
+  },
+  hover: {
+    actions: {
+      debug: { enable: true },
+      enable: true,
+      gotoTypeDef: { enable: true },
+      implementations: { enable: true },
+      references: { enable: false },
+      run: { enable: true }
+    },
+    documentation: { enable: true },
+    links: { enable: true }
+  },
+  imports: {
+    granularity: { enforce: false, group: 'crate' },
+    group: { enable: true },
+    merge: { glob: true },
+    prefix: 'plain'
+  },
+  inlayHints: {
+    bindingModeHints: { enable: false },
+    chainingHints: { enable: true },
+    closingBraceHints: { enable: true, minLines: 25 },
+    closureReturnTypeHints: { enable: 'never' },
+    lifetimeElisionHints: { enable: 'never', useParameterNames: false },
+    maxLength: 25,
+    parameterHints: { enable: true },
+    reborrowHints: { enable: 'never' },
+    renderColons: true,
+    typeHints: {
+      enable: true,
+      hideClosureInitialization: false,
+      hideNamedConstructor: false
+    }
+  },
+  joinLines: {
+    joinAssignments: true,
+    joinElseIf: true,
+    removeTrailingComma: true,
+    unwrapTrivialBlock: true
+  },
+  lens: {
+    debug: { enable: true },
+    enable: true,
+    forceCustomCommands: true,
+    implementations: { enable: true },
+    references: {
+      adt: { enable: false },
+      enumVariant: { enable: false },
+      method: { enable: false },
+      trait: { enable: false }
+    },
+    run: { enable: true }
+  },
+  linkedProjects: [],
+  lru: { capacity: null },
+  notifications: { cargoTomlNotFound: true },
+  procMacro: {
+    attributes: { enable: true },
+    enable: true,
+    ignored: {},
+    server: null
+  },
+  runnables: { command: null, extraArgs: [] },
+  rustc: { source: null },
+  rustfmt: {
+    extraArgs: [],
+    overrideCommand: null,
+    rangeFormatting: { enable: false }
+  },
+  semanticHighlighting: { strings: { enable: true } },
+  signatureInfo: { detail: 'full', documentation: { enable: true } },
+  typing: { autoClosingAngleBrackets: { enable: false } },
+  workspace: {
+    symbol: { search: { kind: 'only_types', limit: 128, scope: 'workspace' } }
+  }
+}
+INFO [6/14/2022, 4:02:50 PM]: PersistentState: { serverVersion: '0.3.1083' }
+INFO [6/14/2022, 4:02:51 PM]: Using server binary at /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1083-linux-x64/server/rust-analyzer

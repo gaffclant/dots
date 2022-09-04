@@ -1,0 +1,77 @@
+[2022-07-30 12:44:21.151] [exthost] [info] Extension host with pid 27128 started
+[2022-07-30 12:44:21.198] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-30 12:44:21.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-30 12:44:21.204] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-30 12:44:21.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-30 12:44:21.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-30 12:44:21.255] [exthost] [info] Eager extensions activated
+[2022-07-30 12:44:21.268] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-30 12:44:21.274] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-30 12:44:33.515] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-30 12:44:33.520] [exthost] [info] Extension host with pid 27128 exiting with code 0
+[2022-07-30 12:44:35.067] [exthost] [info] Extension host with pid 27482 started
+[2022-07-30 12:44:35.067] [exthost] [info] Skipping acquiring lock for /home/gaffclant/.config/VSCodium/User/workspaceStorage/520872812b6ed826dc42c4433edd3dcf.
+[2022-07-30 12:44:35.120] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-30 12:44:35.123] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-07-30 12:44:35.125] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-30 12:44:35.132] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-30 12:44:35.138] [exthost] [info] Eager extensions activated
+[2022-07-30 12:44:35.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-30 12:44:35.146] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-30 12:44:36.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-07-30 12:44:36.154] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust, startup: false, activationEvent: 'workspaceContains:Cargo.toml'
+[2022-07-30 12:44:38.809] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust-analyzer, startup: false, activationEvent: 'onLanguage:rust'
+[2022-07-30 12:45:24.517] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-30 12:45:24.535] [exthost] [error] Canceled: Canceled
+	at new y (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:41560)
+	at s._remoteCall (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:13765)
+	at Proxy.T.<computed>.U.charCodeAt.T.<computed> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:95:10308)
+	at o._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:62238)
+	at o.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:85:61549)
+	at Object.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:31736)
+	at jd (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1123-linux-x64/out/main.js:39:37093)
+	at Ay (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1123-linux-x64/out/main.js:85:1723)
+	at Object.FP (/home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1123-linux-x64/out/main.js:85:1692)
+	at v._deactivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:13087)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10645
+	at Array.map (<anonymous>)
+	at v._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:10632)
+	at v.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:97:11014)
+	at v.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:36671)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:34616
+	at v.invoke (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:18976)
+	at r._receiveMessage (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:23563)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:21097
+	at v.invoke (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:15807)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:69:14937
+	at Socket.R (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:13763)
+	at Socket.emit (node:events:390:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:199:23)
+[2022-07-30 12:45:24.535] [exthost] [info] Extension host with pid 27482 exiting with code 0
+[2022-07-30 12:45:26.959] [exthost] [info] Extension host with pid 28799 started
+[2022-07-30 12:45:26.959] [exthost] [info] Skipping acquiring lock for /home/gaffclant/.config/VSCodium/User/workspaceStorage/520872812b6ed826dc42c4433edd3dcf.
+[2022-07-30 12:45:27.223] [exthost] [info] ExtensionService#_doActivateExtension rust-lang.rust, startup: false, activationEvent: 'onLanguage:rust'
+[2022-07-30 12:45:27.280] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-07-30 12:45:27.285] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-07-30 12:45:27.289] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-07-30 12:45:27.524] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-07-30 12:45:27.553] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-07-30 12:45:27.685] [exthost] [info] Eager extensions activated
+[2022-07-30 12:45:28.135] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-30 12:45:28.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-07-30 12:46:33.421] [exthost] [info] ExtensionService#_doActivateExtension JScearcy.rust-doc-viewer, startup: false, activationEvent: 'onCommand:extension.rustDocViewer'
+[2022-07-30 12:49:54.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-07-30 12:56:50.635] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-07-30 12:56:50.657] [exthost] [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:220:20)
+[2022-07-30 12:56:50.659] [exthost] [info] Extension host with pid 28799 exiting with code 0

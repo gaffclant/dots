@@ -1,0 +1,18 @@
+[2022-06-14 16:02:36.021] [main] [info] window#load: attempt to load window (id: 1)
+[2022-06-14 16:02:36.047] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-06-14 16:02:36.358] [main] [info] ExtensionHostStarterWorker created
+[2022-06-14 16:02:40.163] [main] [info] window#load: window reported ready (id: 1)
+[2022-06-14 16:02:41.012] [main] [info] Starting extension host with pid 4688 (fork() took 10 ms).
+[2022-06-14 16:02:41.012] [main] [info] ExtensionHostStarterWorker.start() took 12 ms.
+[2022-06-14 16:02:47.499] [main] [info] Enabling inspect port on extension host with pid 4688.
+[2022-06-14 16:02:55.883] [main] [info] window#load: attempt to load window (id: 3)
+[2022-06-14 16:02:57.808] [main] [info] window#load: window reported ready (id: 3)
+[2022-06-14 16:02:58.153] [main] [info] Starting extension host with pid 5235 (fork() took 7 ms).
+[2022-06-14 16:02:58.154] [main] [info] ExtensionHostStarterWorker.start() took 9 ms.
+[2022-06-14 16:02:58.318] [main] [info] Extension host with pid 4688 exited with code: 0, signal: null.
+[2022-06-14 16:03:10.236] [main] [info] window#load: attempt to load window (id: 3)
+[2022-06-14 16:03:10.243] [main] [info] Extension host with pid 5235 exited with code: 0, signal: null.
+[2022-06-14 16:03:10.842] [main] [info] window#load: window reported ready (id: 3)
+[2022-06-14 16:03:11.060] [main] [info] Starting extension host with pid 5558 (fork() took 10 ms).
+[2022-06-14 16:03:11.060] [main] [info] ExtensionHostStarterWorker.start() took 12 ms.
+[2022-06-14 16:06:03.066] [main] [info] Extension host with pid 5558 exited with code: 0, signal: null.

@@ -1,0 +1,45 @@
+[2022-07-17 01:25:27.000] [sharedprocess] [info] Starting worker process with pid 6026 (type: fileWatcher, window: 1).
+[2022-07-17 01:25:29.271] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-07-17 01:25:30.160] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-07-17 01:25:30.270] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.18
+[2022-07-17 01:25:30.309] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.a376b12a-4fe4-46d7-93d2-cf85a40bca30: ms-vscode.js-debug-companion
+[2022-07-17 01:25:30.399] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.18
+[2022-07-17 01:25:30.401] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-07-17 01:25:30.464] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-07-17 01:25:57.303] [sharedprocess] [info] Getting Manifest... rust-lang.rust
+[2022-07-17 01:25:57.310] [sharedprocess] [info] Installing extension: rust-lang.rust
+[2022-07-17 01:25:57.525] [sharedprocess] [info] Downloaded extension: rust-lang.rust /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-0.7.8
+[2022-07-17 01:25:57.675] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.46a0c4f9-3190-4795-bb3d-9f3c36f67b23: rust-lang.rust
+[2022-07-17 01:25:57.745] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-0.7.8
+[2022-07-17 01:25:57.746] [sharedprocess] [info] Extracting completed. rust-lang.rust
+[2022-07-17 01:25:57.748] [sharedprocess] [info] Extension installed successfully: rust-lang.rust
+[2022-07-17 01:26:04.058] [sharedprocess] [info] Getting Manifest... rust-lang.rust-analyzer
+[2022-07-17 01:26:04.067] [sharedprocess] [info] Installing extension: rust-lang.rust-analyzer
+[2022-07-17 01:26:24.049] [sharedprocess] [info] Getting Manifest... dustypomerleau.rust-syntax
+[2022-07-17 01:26:24.055] [sharedprocess] [info] Installing extension: dustypomerleau.rust-syntax
+[2022-07-17 01:26:28.042] [sharedprocess] [info] Getting Manifest... jscearcy.rust-doc-viewer
+[2022-07-17 01:26:28.050] [sharedprocess] [info] Installing extension: jscearcy.rust-doc-viewer
+[2022-07-17 01:26:28.249] [sharedprocess] [info] Downloaded extension: jscearcy.rust-doc-viewer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/jscearcy.rust-doc-viewer-3.0.2
+[2022-07-17 01:26:28.512] [sharedprocess] [info] Downloaded extension: rust-lang.rust-analyzer /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/rust-lang.rust-analyzer-0.3.1123-linux-x64
+[2022-07-17 01:26:28.618] [sharedprocess] [info] Downloaded extension: dustypomerleau.rust-syntax /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/dustypomerleau.rust-syntax-0.6.1
+[2022-07-17 01:26:28.676] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.10daa45b-17f0-4cfc-a6cb-06edbc7cb6bc: jscearcy.rust-doc-viewer
+[2022-07-17 01:26:28.704] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.3343e9bf-3802-4aeb-ae4d-43b5309ed720: dustypomerleau.rust-syntax
+[2022-07-17 01:26:28.776] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/jscearcy.rust-doc-viewer-3.0.2
+[2022-07-17 01:26:28.777] [sharedprocess] [info] Extracting completed. jscearcy.rust-doc-viewer
+[2022-07-17 01:26:28.779] [sharedprocess] [info] Extension installed successfully: jscearcy.rust-doc-viewer
+[2022-07-17 01:26:28.810] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/dustypomerleau.rust-syntax-0.6.1
+[2022-07-17 01:26:28.812] [sharedprocess] [info] Extracting completed. dustypomerleau.rust-syntax
+[2022-07-17 01:26:28.813] [sharedprocess] [info] Extension installed successfully: dustypomerleau.rust-syntax
+[2022-07-17 01:26:29.169] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.6644fdae-ccb2-4eaf-b0b1-67cdaa689192: rust-lang.rust-analyzer
+[2022-07-17 01:26:29.197] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1123-linux-x64
+[2022-07-17 01:26:29.203] [sharedprocess] [info] Extracting completed. rust-lang.rust-analyzer
+[2022-07-17 01:26:29.206] [sharedprocess] [info] Extension installed successfully: rust-lang.rust-analyzer
+[2022-07-17 01:27:00.894] [sharedprocess] [info] Worker process with pid 6026 terminated normally (type: fileWatcher, window: 1).
+[2022-07-17 01:27:02.278] [sharedprocess] [info] Starting worker process with pid 7517 (type: fileWatcher, window: 1).
+[2022-07-17 01:29:14.066] [sharedprocess] [info] Getting Manifest... catppuccin.catppuccin-vsc
+[2022-07-17 01:29:14.072] [sharedprocess] [info] Installing extension: catppuccin.catppuccin-vsc
+[2022-07-17 01:29:17.004] [sharedprocess] [info] Downloaded extension: catppuccin.catppuccin-vsc /home/gaffclant/.config/Code - OSS/CachedExtensionVSIXs/catppuccin.catppuccin-vsc-1.0.6
+[2022-07-17 01:29:17.055] [sharedprocess] [info] Extracted extension to /home/gaffclant/.vscode-oss/extensions/.e09505ee-8636-45b2-afb6-a62cb7137b1a: catppuccin.catppuccin-vsc
+[2022-07-17 01:29:17.089] [sharedprocess] [info] Renamed to /home/gaffclant/.vscode-oss/extensions/catppuccin.catppuccin-vsc-1.0.6
+[2022-07-17 01:29:17.091] [sharedprocess] [info] Extracting completed. catppuccin.catppuccin-vsc
+[2022-07-17 01:29:17.093] [sharedprocess] [info] Extension installed successfully: catppuccin.catppuccin-vsc
