@@ -497,15 +497,11 @@ config.bind(',v', 'spawn --userscript youtube_downloader.sh')
 config.bind('<Ctrl-Shift-p>', 'hint links spawn --verbose --detach /home/gaffclant/Programming/Bash/fillplaylist.sh push {hint-url}')
 config.bind('<Ctrl-Shift-o>', 'spawn --verbose --detach /home/gaffclant/Programming/Bash/fillplaylist.sh play')
 config.bind('<Ctrl-Shift-d>', 'hint links spawn --verbose --detach mpv {hint-url} --input-ipc-server=/tmp/mpvsocket')
-import dracula.draw
+
 config.load_autoconfig()
 
-dracula.draw.blood(c, {
-    'spacing': {
-        'vertical': 6,
-        'horizontal': 8
-    }
-})
+
+
 import catppuccin
 config.load_autoconfig()
 catppuccin.setup(c, 'mocha')
