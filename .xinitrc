@@ -35,10 +35,11 @@ fi
 
 dwmblocks 2>&1 >/dev/null &
 
-feh --bg-fill $HOME/Images/wallpaper2.png
+bash $HOME/.fehbg
 pipewire &
 picom --experimental-backends &
-xrdb .Xresouces &
+xrandr
+xrdb -merge .Xresouces &
 dunst -config /home/gaffclant/.config/dunstrc &
 mpd &
 
