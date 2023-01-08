@@ -1,5 +1,5 @@
 window:
-  opacity: 0.9
+  opacity: 0.8
   padding:
     x: 4
     y: 4
@@ -11,41 +11,47 @@ font:
 env:
   TERM: xterm-256color
 
+    ###
+    #
+    #
+    # 
 # Catppuccin!
-colors:
+#colors:
   # Default colors
-  primary:
-    background: '0x1E1D2F'
-    foreground: '0xD9E0EE'
+  # primary:
+  # background: '0x1E1D2F'
+  # foreground: '0xD9E0EE'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0x1E1D2F'
-    cursor: '0xF5E0DC'
+  # cursor:
+  # text: '0x1E1D2F'
+  # cursor: '0xF5E0DC'
 
   # Normal colors
-  normal:
-    black:   '0x6E6C7E'
-    red:     '0xF28FAD'
-    green:   '0xABE9B3'
-    yellow:  '0xFAE3B0'
-    blue:    '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan:    '0x89DCEB'
-    white:   '0xD9E0EE'
+  #normal:
+  # black:   '0x6E6C7E'
+  # red:     '0xF28FAD'
+  # green:   '0xABE9B3'
+  # yellow:  '0xFAE3B0'
+  # blue:    '0x96CDFB'
+  # magenta: '0xF5C2E7'
+  # cyan:    '0x89DCEB'
+  # white:   '0xD9E0EE'
 
   # Bright colors
-  bright:
-    black:   '0x988BA2'
-    red:     '0xF28FAD'
-    green:   '0xABE9B3'
-    yellow:  '0xFAE3B0'
-    blue:    '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan:    '0x89DCEB'
-    white:   '0xD9E0EE'
+  #bright:
+  # black:   '0x988BA2'
+  # red:     '0xF28FAD'
+  # green:   '0xABE9B3'
+  # yellow:  '0xFAE3B0'
+  # blue:    '0x96CDFB'
+  # magenta: '0xF5C2E7'
+  # cyan:    '0x89DCEB'
+  # white:   '0xD9E0EE'
 
-  indexed_colors:
-    - { index: 16, color: '0xF8BD96' }
-    - { index: 17, color: '0xF5E0DC' }
-
+    #indexed_colors:
+    #- { index: 16, color: '0xF8BD96' }
+    #- { index: 17, color: '0xF5E0DC' }
+    #
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
