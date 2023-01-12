@@ -93,7 +93,7 @@ visualizer_look = "●┃"
 #
 ## Alternative subset of 256 colors for terminals that support it.
 ##
-# visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
+visualizer_color = 41, 83, 119, 155, 185, 215, 209, 203, 197, 161
 #
 
 #
@@ -125,7 +125,7 @@ system_encoding = "utf-8"
 ## Time of inactivity (in seconds) after playlist
 ## highlighting will be disabled (0 = always on).
 ##
-playlist_disable_highlight_delay = "0"
+playlist_disable_highlight_delay = "1"
 #
 ## Defines how long messages are supposed to be visible.
 ##
@@ -219,7 +219,7 @@ message_delay_time = 5
 
 #alternative_header_second_line_format = "{{$6%b$9}{ [$6%y$9]}}|{%D}"
 
-now_playing_prefix = "$b$9▶ "
+now_playing_prefix = "$b$9▶$6 "
 
 now_playing_suffix = $/b
 
@@ -283,7 +283,9 @@ browser_sort_format = {%a - }{%t}|{%f} {(%l)}
 
 #song_columns_list_format = "(3)[]{}(85)[white]{t} (1)[blue]{a}"
 
-song_columns_list_format = "(10)[blue]{l} (30)[magenta]{b} (25)[blue]{a} (10)[magenta]{t}"
+#song_columns_list_format = "(10)[black]{l} (30)[black]{b} (25)[black]{a} (10)[black]{t}"
+
+song_columns_list_format = "(7)[green]{l} (28)[cyan]{a} (28)[]{b} (50)[red]{t}"
 
 #song_columns_list_format = "(15)[green]{a} (20)[magenta]{b} (25)[yellow]{t} (5)[blue]{l}"  
 
@@ -473,7 +475,7 @@ display_bitrate = "no"
 #
 search_engine_default_search_mode = 2
 
-external_editor = "/usr/bin/vim"
+external_editor = "/usr/bin/nvim"
 
 ## Note: set to yes if external editor is a console application.
 ##

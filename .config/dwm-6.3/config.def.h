@@ -72,7 +72,19 @@ static char *colors[][3] = {
 
 
 /* tagging */
-static const char *tags[] = { "", "ﲅ", "", "ﭮ", "", ""};
+static const char *tags[] = { "", "", "", "ﴔ", "", ""};
+
+static const char *tagsel[][2][2] = {
+	/*      norm                          sel       */
+	/*  fg          bg              fg          bg  */
+	{ { "#df8e1d", "#eff1f5" }, { "#df8e1d", "#eff1f5" } },
+	{ { "#ea76cb", "#eff1f5" }, { "#ea76cb", "#eff1f5" } },
+	{ { "#1e66f5", "#eff1f5" }, { "#1e66f5", "#eff1f5" } },
+	{ { "#40a02b", "#eff1f5" }, { "#40a02b", "#eff1f5" } },
+	{ { "#d20f39", "#eff1f5" }, { "#d20f39", "#eff1f5" } },
+	{ { "#4c4f69", "#eff1f5" }, { "#4c4f69", "#eff1f5" } },
+
+};
 
 static const unsigned int ulinepad	= 4;	/* horizontal padding between the underline and tag */
 static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */

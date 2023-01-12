@@ -48,7 +48,7 @@
     max_icon_size =                 96
 
     # Zafiro
-     icon_path =                    /home/rashad/.local/share/icons/Zafiro-Icons/actions/22/:/home/rashad/.local/share/icons/Zafiro-Icons/actions/48/:/home/rashad/.local/share/icons/Zafiro-Icons/apps/scalable/:/home/rashad/.local/share/icons/Zafiro-Icons/categories/22/:/home/rashad/.local/share/icons/Zafiro-Icons/devices/48/:/home/rashad/.local/share/icons/Zafiro-Icons/emblems/16/:/home/rashad/.local/share/icons/Zafiro-Icons/emotes/:/home/rashad/.local/share/icons/Zafiro-Icons/mimetypes/48/:/home/rashad/.local/share/icons/Zafiro-Icons/panel/22-light/:/home/rashad/.local/share/icons/Zafiro-Icons/places/48-blue/:/home/rashad/.local/share/icons/Zafiro-Icons/status/22/
+     icon_path =                    /home/gaffclant/.local/share/icons/Zafiro-Icons/actions/22/:/home/gaffclant/.local/share/icons/Zafiro-Icons/actions/48/:/home/gaffclant/.local/share/icons/Zafiro-Icons/apps/scalable/:/home/gaffclant/.local/share/icons/Zafiro-Icons/categories/22/:/home/gaffclant/.local/share/icons/Zafiro-Icons/devices/48/:/home/gaffclant/.local/share/icons/Zafiro-Icons/emblems/16/:/home/gaffclant/.local/share/icons/Zafiro-Icons/emotes/:/home/gaffclant/.local/share/icons/Zafiro-Icons/mimetypes/48/:/home/gaffclant/.local/share/icons/Zafiro-Icons/panel/22-light/:/home/gaffclant/.local/share/icons/Zafiro-Icons/places/48-blue/:/home/gaffclant/.local/share/icons/Zafiro-Icons/status/22/
 
 #--------------------------
 #           History
@@ -96,18 +96,23 @@
         close_all =                 ctrl+shift+space
         context =                   ctrl+shift+period
 
-	[urgency_low]
-	background = "#1E1E2E"
-	foreground = "#CDD6F4"
 
-	[urgency_normal]
-	background = "#1E1E2E"
-	foreground = "#CDD6F4"
+    frame_color = "#1E66F5"
+    separator_color= frame
 
-	[urgency_critical]
-	background = "#1E1E2E"
-	foreground = "#CDD6F4"
-	frame_color = "#FAB387"
+    [urgency_low]
+	background = "#EFF1F5"
+	foreground = "#4C4F69"
+
+    [urgency_normal]
+	background = "#EFF1F5"
+	foreground = "#4C4F69"
+
+    [urgency_critical]
+	background = "#EFF1F5"
+	foreground = "#4C4F69"
+	frame_color = "#FE640B"
+
 
     [mpd]
         appname =                   mpd
