@@ -42,5 +42,6 @@ xrandr
 xrdb -merge .Xresouces &
 dunst -config /home/gaffclant/.config/dunstrc &
 mpd &
+eww daemon &
 
 exec dbus-run-session dwm

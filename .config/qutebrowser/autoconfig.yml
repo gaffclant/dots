@@ -13,6 +13,8 @@ settings:
       {qt_key}/{qt_version} {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}
     https://accounts.google.com/*: Mozilla/5.0 ({os_info}; rv:90.0) Gecko/20100101
       Firefox/90.0
+  content.mouse_lock:
+    https://krunker.io: true
   content.notifications.enabled:
     https://www.reddit.com: true
   content.webrtc_ip_handling_policy:

@@ -8,6 +8,7 @@
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
 
+alias nix-init='. /home/gaffclant/.nix-profile/etc/profile.d/nix.sh'
 alias ride='/home/gaffclant/github/ride/_/ride45/Ride-4.5-linux-x64/Ride-4.5'
 alias dyapl='sudo docker run -e RIDE_INIT=serve:*:4502 -p 4502:4502 dyalog/dyalog'
 alias rm='rm -i'
@@ -18,6 +19,7 @@ alias playlist='mpv --no-video --shuffle *'
 alias vi="vim"
 alias shutnow='sudo shutdown -P now'
 alias bat='bat --theme ansi'
+alias music='tmux new-session -s $$ "tmux source-file ~/.ncmpcpp/tsession"'
 
 export XDG_RUNTIME_DIR=$HOME/.local/run
 export EDITOR=nvim

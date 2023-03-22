@@ -295,7 +295,7 @@ song_columns_list_format = "(7)[green]{l} (28)[cyan]{a} (28)[]{b} (50)[red]{t}"
 ## Note: Custom command that will be executed each
 ## time song changes. Useful for notifications etc.
 ##
-execute_on_song_change = notify-send "Now Playing ♫" "$(mpc current)"
+execute_on_song_change = notify-send "Now Playing ♫" "$(mpc current)" & ~/.ncmpcpp/cover_obs.sh
 
 # Playlist
 

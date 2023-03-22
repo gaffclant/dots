@@ -21,7 +21,7 @@ static const int sidepad            = 8;       /* horizontal padding of bar */
 static const char *fonts[]          = { "FantasqueSansMono Nerd Font Mono:style=Regular:size=16:antialiasing=true", };
 static const char dmenufont[]       = "Fantasque Sans Mono:style=Regular:size=12";
 
-static const int horizpadbar = 3; /* horizontal padding for statusbar */
+static const int horizpadbar = 10; /* horizontal padding for statusbar */
 static const int vertpadbar  = 5; /* vertical padding for statusbar */
 
 static char normbgcolor[]           = "#222222";
@@ -149,6 +149,7 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_j,	   spawn,	   SHCMD("mpc volume -1") },
 	{ MODKEY|ShiftMask,     	XK_k,      spawn,     	   SHCMD("mpc volume +1") },
 	{ MODKEY|ShiftMask,		XK_z, 	   spawn,	   SHCMD("slock") },
+	{ MODKEY|ShiftMask,		XK_x, 	   spawn,	   SHCMD("$HOME/.config/eww/dashboard/scripts/weather_info --getdata && $HOME/.config/eww/dashboard/launch_dashboard") },
 	{ 0,                       XF86XK_AudioLowerVolume, spawn, {.v = downvol } },
 	{ 0,                       XF86XK_AudioMute, spawn, {.v = mutevol } },
 	{ 0,                       XF86XK_AudioRaiseVolume, spawn, {.v = upvol   } },
