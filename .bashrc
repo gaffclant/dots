@@ -29,7 +29,10 @@ function cd {
     builtin cd "$@" && ls -F
 }
 
-PS1="\[\033[1;35m\]\w \[\033[1;36m\]\[\033[0;0m\] "
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+PS1="\[\033[1;35m\]\w\[\033[1;33m\]\$(parse_git_branch) \[\033[1;36m\]\[\033[0;0m\] "
 PATH=/home/gaffclant/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
 PATH=/home/gaffclant/bin:/home/gaffclant/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/gaffclant/.local/bin:/usr/share/fonts/:/home/gaffclant/.local/share/gem/ruby/3.0.0/bin:$HOME/.cargo/env
 
