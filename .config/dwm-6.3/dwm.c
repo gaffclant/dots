@@ -1567,6 +1567,8 @@ setfocus(Client *c)
 			XA_WINDOW, 32, PropModeReplace,
 			(unsigned char *) &(c->win), 1);
 	}
+
+
 	sendevent(c, wmatom[WMTakeFocus]);
 }
 
@@ -1889,6 +1891,8 @@ unfocus(Client *c, int setfocus)
 {
 	if (!c)
 		return;
+
+
 	grabbuttons(c, 0);
 	XSetWindowBorder(dpy, c->win, scheme[SchemeNorm][ColBorder].pixel);
 	if (setfocus) {
@@ -1935,6 +1939,7 @@ unmapnotify(XEvent *e)
 			unmanage(c, 0);
 	}
 }
+
 
 void
 updatebars(void)

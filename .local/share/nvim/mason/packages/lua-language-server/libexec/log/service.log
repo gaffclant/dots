@@ -1,0 +1,199 @@
+[00:42:45.376][info] [#0:/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:66]: Lua Lsp startup, root: 	/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec
+[00:42:45.376][info] [#0:/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:67]: ROOT:	/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec
+[00:42:45.376][info] [#0:/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: LOGPATH:	/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[00:42:45.376][info] [#0:/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: METAPATH:	/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[00:42:45.377][info] [#0:/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: VERSION:	3.6.25
+[00:42:45.395][info] [#0:script/service/service.lua:144]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 2.134 MB
+        # 00 : 2.134 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[00:42:45.398][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = false,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit" }
+        }
+      },
+      completion = {
+        completionItem = {
+          commitCharactersSupport = true,
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          insertReplaceSupport = true,
+          insertTextModeSupport = {
+            valueSet = { 1, 2 }
+          },
+          labelDetailsSupport = true,
+          preselectSupport = true,
+          resolveSupport = {
+            properties = { "documentation", "detail", "additionalTextEdits", "sortText", "filterText", "insertText", "textEdit", "insertTextFormat", "insertTextMode" }
+          },
+          snippetSupport = true,
+          tagSupport = {
+            valueSet = { 1 }
+          }
+        },
+        completionItemKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 }
+        },
+        completionList = {
+          itemDefaults = { "commitCharacters", "editRange", "insertTextFormat", "insertTextMode", "data" }
+        },
+        contextSupport = true,
+        dynamicRegistration = false,
+        insertTextMode = 1
+      },
+      declaration = {
+        linkSupport = true
+      },
+      definition = {
+        linkSupport = true
+      },
+      documentHighlight = {
+        dynamicRegistration = false
+      },
+      documentSymbol = {
+        dynamicRegistration = false,
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = false
+      },
+      implementation = {
+        linkSupport = true
+      },
+      publishDiagnostics = {
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        }
+      },
+      references = {
+        dynamicRegistration = false
+      },
+      rename = {
+        dynamicRegistration = false,
+        prepareSupport = true
+      },
+      semanticTokens = {
+        augmentsSyntaxTokens = true,
+        dynamicRegistration = false,
+        formats = { "relative" },
+        multilineTokenSupport = false,
+        overlappingTokenSupport = true,
+        requests = {
+          full = {
+            delta = true
+          },
+          range = false
+        },
+        serverCancelSupport = false,
+        tokenModifiers = { "declaration", "definition", "readonly", "static", "deprecated", "abstract", "async", "modification", "documentation", "defaultLibrary" },
+        tokenTypes = { "namespace", "type", "class", "enum", "interface", "struct", "typeParameter", "parameter", "variable", "property", "enumMember", "event", "function", "method", "macro", "keyword", "modifier", "comment", "string", "number", "regexp", "operator", "decorator" }
+      },
+      signatureHelp = {
+        dynamicRegistration = false,
+        signatureInformation = {
+          activeParameterSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        dynamicRegistration = false,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        linkSupport = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      showMessage = {
+        messageActionItem = {
+          additionalPropertiesSupport = false
+        }
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      configuration = true,
+      didChangeWatchedFiles = {
+        dynamicRegistration = false,
+        relativePatternSupport = true
+      },
+      semanticTokens = {
+        refreshSupport = true
+      },
+      symbol = {
+        dynamicRegistration = false,
+        hierarchicalWorkspaceSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        resourceOperations = { "rename", "create", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "Neovim",
+    version = "0.9.1"
+  },
+  initializationOptions = {},
+  processId = 678,
+  rootPath = "/home/gaffclant/.config/nvim",
+  rootUri = "file:///home/gaffclant/.config/nvim",
+  trace = "off",
+  workspaceFolders = { {
+      name = "/home/gaffclant/.config/nvim",
+      uri = "file:///home/gaffclant/.config/nvim"
+    } }
+}
+[00:42:45.398][info] [#0:script/language.lua:137]: VSC language: nil
+[00:42:45.398][info] [#0:script/language.lua:138]: LS  language: en-us
+[00:42:45.398][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/gaffclant/.config/nvim
+[00:42:45.398][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/gaffclant/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_gaffclant_.config_nvim.log

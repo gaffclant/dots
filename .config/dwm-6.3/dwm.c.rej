@@ -1,0 +1,23 @@
+--- dwm.c
++++ dwm.c
+@@ -816,9 +925,7 @@ drawbar(Monitor *m)
+ 
+ 	/* draw status first so it can be overdrawn by tags later */
+ 	if (m == selmon) { /* status is only drawn on selected monitor */
+-		drw_setscheme(drw, scheme[SchemeNorm]);
+-		tw = TEXTW(stext) - lrpad + 2; /* 2px right padding */
+-		drw_text(drw, m->ww - tw, 0, tw, bh, 0, stext, 0);
++		tw = m->ww - drawstatusbar(m, bh, stext);
+ 	}
+ 
+ 	for (c = m->clients; c; c = c->next) {
+@@ -1680,7 +1787,8 @@ setup(void)
+ 	cursor[CurResize] = drw_cur_create(drw, XC_sizing);
+ 	cursor[CurMove] = drw_cur_create(drw, XC_fleur);
+ 	/* init appearance */
+-	scheme = ecalloc(LENGTH(colors), sizeof(Clr *));
++	scheme = ecalloc(LENGTH(colors) + 1, sizeof(Clr *));
++	scheme[LENGTH(colors)] = drw_scm_create(drw, colors[0], 3);
+ 	for (i = 0; i < LENGTH(colors); i++)
+ 		scheme[i] = drw_scm_create(drw, colors[i], 3);
+ 	/* init bars */

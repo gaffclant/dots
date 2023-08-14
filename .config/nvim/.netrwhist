@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/usr/share/rofi/themes'
-let g:netrw_dirhist_2='/usr/share/rofi'
-let g:netrw_dirhist_1='/home/gaffclant/.config/dwm/dwm-6.2'
