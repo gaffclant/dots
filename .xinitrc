@@ -34,17 +34,21 @@ fi
 
 dwmblocks 2>&1 >/dev/null &
 
-bash $HOME/.fehbg
-pipewire &
 picom --experimental-backends &
-xrandr --output DisplayPort-1 --mode 1920x1080 --rate 60.00 --output DisplayPort-2 --primary --mode 2560x1440 --rate 144.00 &
-xrdb -merge .Xresouces
+#bash $HOME/.screenlayout/main.sh &
+xrdb -merge .Xresouces &
 dunst -config /home/gaffclant/.config/dunstrc &
-mpd &
 eww daemon &
+pipewire &
+mpd &
+bash $HOME/.fehbg
+#xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv -wid 0 --loop --no-audio ~/Videos/life_death.mp4
+xset -dpms &
+xset s off &
 
 # Swap escape key and caps lock
 setxkbmap -option caps:swapescape &
+xrandr --output DisplayPort-0 --primary --mode 2560x1440 --rate 143.97
 
 while true; do
 	dbus-run-session dwm 2>/dev/null

@@ -97,22 +97,22 @@
         context =                   ctrl+shift+period
 
 
-	
-    frame_color = "#89B4FA"
+    frame_color = "#1E66F5"
     separator_color= frame
 
     [urgency_low]
-        background = "#1E1E2E"
-	foreground = "#CDD6F4"
+	background = "#EFF1F5"
+	foreground = "#4C4F69"
 
     [urgency_normal]
-	background = "#1E1E2E"
-	foreground = "#CDD6F4"
-	
-     [urgency_critical]
-	background = "#1E1E2E"
-	foreground = "#CDD6F4"
-	frame_color = "#FAB387"
+	background = "#EFF1F5"
+	foreground = "#4C4F69"
+
+    [urgency_critical]
+	background = "#EFF1F5"
+	foreground = "#4C4F69"
+	frame_color = "#FE640B"
+
 
     [mpd]
         appname =                   mpd

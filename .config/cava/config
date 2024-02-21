@@ -128,7 +128,7 @@
 # SDL only support hex code colors, these are the default:
 [color]
 
-gradient = 1
+gradient = 0
 
 gradient_color_1 = '#179299'
 gradient_color_2 = '#04a5e5'

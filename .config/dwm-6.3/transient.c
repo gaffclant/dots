@@ -29,9 +29,9 @@ int main(void) {
 
 		if (t == None) {
 			sleep(5);
-			t = XCreateSimpleWindow(d, r, 50, 50, 100, 100, 0, 0, 0);
+			t = XCreateSimpleWindow(d, r, 50, 50, 100, 100, 100, 100, 100);
 			XSetTransientForHint(d, t, f);
-			XStoreName(d, t, "transient");
+			XStoreName(d, t, "poggers");
 			XMapWindow(d, t);
 			XSelectInput(d, t, ExposureMask);
 		}
