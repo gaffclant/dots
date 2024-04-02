@@ -504,6 +504,6 @@ config.load_autoconfig()
 
 import catppuccin
 config.load_autoconfig()
-catppuccin.setup(c, 'latte')
+catppuccin.setup(c, 'mocha')
 
 

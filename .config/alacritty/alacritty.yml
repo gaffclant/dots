@@ -54,4 +54,4 @@ env:
     #- { index: 17, color: '0xF5E0DC' }
     #
 import:
-  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml

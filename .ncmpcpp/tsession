@@ -1,0 +1,33 @@
+neww
+set -g status off
+
+#image pane; run cover script, disable text output and remove prompt
+send-keys "tput civis -- invisible" C-m
+send-keys "export PS1=''" C-m
+send-keys "clear" C-m
+send-keys "~/.config/eww/dashboard/scripts/music_info" C-m
+send-keys ". ~/.ncmpcpp/cover.sh " C-m
+
+#catalog pane; run instance of ncmpcpp
+split-window -v
+select-pane -t 1
+send-keys "ncmpcpp -c ~/.config/ncmpcpp/cat.config" C-m
+send-keys 1
+
+#visualizer pane; run instance of ncmpcpp in visualizer mode
+select-pane -t 0
+split-window -h
+send-keys "ncmpcpp" C-m
+#send-keys "ff" C-m
+send-keys 8
+send-keys u
+
+#resize image and visualizer pane to fit image
+resize-pane -t 0 -x 58 -y 28
+resize-pane -t 1 -y 28
+
+#hook for keeping the image pane size constant
+set-hook client-resized 'resize-pane -t 0 -x 58 -y 28'
+
+#focus on catalog pane
+select-pane -t 2

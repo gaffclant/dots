@@ -20,8 +20,10 @@ settings:
     global: access
   content.mouse_lock:
     https://krunker.io: true
+    https://www.raylib.com: true
   content.notifications.enabled:
     https://thepiratebay.org: false
+    https://uwumarket.us: false
     https://www.reddit.com: true
   content.register_protocol_handler:
     https://mail.proton.me#mailto=%25s: true

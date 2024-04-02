@@ -64,12 +64,12 @@ static const char *tags[] = {"", "", "", "ﴔ", "", ""};
 static const char *tagsel[][2][2] = {
     /*      norm                          sel       */
     /*  fg          bg              fg          bg  */
-    {{"#df8e1d", "#eff1f5"}, {"#df8e1d", "#eff1f5"}},
-    {{"#ea76cb", "#eff1f5"}, {"#ea76cb", "#eff1f5"}},
-    {{"#1e66f5", "#eff1f5"}, {"#1e66f5", "#eff1f5"}},
-    {{"#40a02b", "#eff1f5"}, {"#40a02b", "#eff1f5"}},
-    {{"#d20f39", "#eff1f5"}, {"#d20f39", "#eff1f5"}},
-    {{"#4c4f69", "#eff1f5"}, {"#4c4f69", "#eff1f5"}},
+    {{"#F9E2AF", "#1e1e2e"}, {"#F9E2AF", "#1e1e2e"}},
+    {{"#F5C2E7", "#1e1e2e"}, {"#F5C2E7", "#1e1e2e"}},
+    {{"#94E2D5", "#1e1e2e"}, {"#94E2D5", "#1e1e2e"}},
+    {{"#A6E3A1", "#1e1e2e"}, {"#A6E3A1", "#1e1e2e"}},
+    {{"#F38BA8", "#1e1e2e"}, {"#F38BA8", "#1e1e2e"}},
+    {{"#CDD6F4", "#1e1e2e"}, {"#CDD6F4", "#1e1e2e"}},
 
 };
 
@@ -109,29 +109,31 @@ static const Layout layouts[] = {
 #define MODKEY Mod4Mask
 #define ALTMOD Mod1Mask
 #define TAGKEYS(KEY, TAG)                                                      \
-  {MODKEY, KEY, view, {.ui = 1 << TAG}},                                       \
-      {MODKEY | ControlMask, KEY, toggleview, {.ui = 1 << TAG}},               \
-      {MODKEY | ShiftMask, KEY, tag, {.ui = 1 << TAG}},                        \
-      {MODKEY | ControlMask | ShiftMask, KEY, toggletag, {.ui = 1 << TAG}},    \
-      {MODKEY | ALTMOD, KEY, focusnthmon, {.i = TAG}},                         \
-      {MODKEY | ALTMOD | ShiftMask, KEY, tagnthmon, {.i = TAG}},
+    {MODKEY, KEY, view, {.ui = 1 << TAG}},                                     \
+        {MODKEY | ControlMask, KEY, toggleview, {.ui = 1 << TAG}},             \
+        {MODKEY | ShiftMask, KEY, tag, {.ui = 1 << TAG}},                      \
+        {MODKEY | ControlMask | ShiftMask, KEY, toggletag, {.ui = 1 << TAG}},  \
+        {MODKEY | ALTMOD, KEY, focusnthmon, {.i = TAG}},                       \
+        {MODKEY | ALTMOD | ShiftMask, KEY, tagnthmon, {.i = TAG}},
 
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
 #define SHCMD(cmd)                                                             \
-  {                                                                            \
-    .v = (const char *[]) { "/bin/bash", "-c", cmd, NULL }                     \
-  }
+    {                                                                          \
+        .v = (const char *[]) { "/bin/bash", "-c", cmd, NULL }                 \
+    }
 
 /* commands */
 static char dmenumon[2] =
     "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = {"dmenu_run", "-m",      dmenumon,
                                  "-fn",       dmenufont, NULL};
-static const char *termcmd[] = {"kitty", NULL};
+static const char *termcmd[] = {"alacritty", NULL};
 
 static Key keys[] = {
     /* modifier                     key        function        argument */
     {MODKEY | ShiftMask, XK_d, spawn, SHCMD("Discord")},
+    {MODKEY, XK_o, spawn,
+     SHCMD("maim -su | xclip -selection clipboard -t image/png")},
     {MODKEY | ShiftMask, XK_w, spawn, SHCMD("qutebrowser")},
     {MODKEY | ShiftMask, XK_g, spawn, SHCMD("steam")},
     {MODKEY | ShiftMask, XK_s, spawn, SHCMD("maim ~/Images/$(date +%s).png")},

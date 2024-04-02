@@ -58,3 +58,4 @@ export CARGO_MOMMYS_LITTLE="boy"
 export CARGO_MOMMYS_MOODS="yikes"
 export SHELL_MOMMYS_LITTLE="boy"
 set -o vi
+source /home/gaffclant/.config/alacritty/alacritty/extra/completions/alacritty.bash
