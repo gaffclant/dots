@@ -18,7 +18,7 @@ send-keys 1
 select-pane -t 0
 split-window -h
 send-keys "ncmpcpp" C-m
-#send-keys "ff" C-m
+send-keys "ff" C-m
 send-keys 8
 send-keys u
 

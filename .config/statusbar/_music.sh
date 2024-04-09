@@ -1,4 +1,3 @@
 #!/bin/bash
-
 TIT=$(mpc current)
-echo " ﱘ $TIT"
+echo "^C1^^B1^ ^C0^ﱘ $TIT"

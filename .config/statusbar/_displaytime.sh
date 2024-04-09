@@ -2,4 +2,4 @@
 
 # Status bar time
 
-echo "$(date +%H:%M) "
+echo "^C4^^B4^ ^C0^ $(date +%H:%M)  "
