@@ -35,7 +35,10 @@ alias day='sudo theme day'
 alias night='sudo theme night'
 alias feh="feh --image-bg black -Z -."
 alias discordo="discordo --token=$(cat ~/.discord_token)"
+
 alias cargo="cargo-mommy"
+
+. $HOME/.local/bin/shell-mommy.sh
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -55,7 +58,9 @@ parse_git_branch() {
 PS1="\[\033[1;35m\]\w\[\033[1;33m\]\$(parse_git_branch) \[\033[1;36m\]\[\033[0;0m\] "
 . $HOME/.cargo/env
 export CARGO_MOMMYS_LITTLE="boy"
-export CARGO_MOMMYS_MOODS="yikes"
+export CARGO_MOMMYS_MOODS="thirsty"
 export SHELL_MOMMYS_LITTLE="boy"
 set -o vi
 source /home/gaffclant/.config/alacritty/alacritty/extra/completions/alacritty.bash
+export PROMPT_COMMAND=""
+export PROMPT_COMMAND="mommy \\$\\(exit \$?\\); $PROMPT_COMMAND"

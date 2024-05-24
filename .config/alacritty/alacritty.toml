@@ -13,10 +13,11 @@ family = "CaskaydiaCove Nerd Font Mono"
 [window]
 opacity = 0.8
 decorations = "None"
+dynamic_padding = true
 
 [window.padding]
 x = 4
-y = 1
+y = 0
 
 [colors.footer_bar]
 foreground = "#CDD6F4"

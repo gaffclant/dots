@@ -24,7 +24,7 @@ static const char *fonts[] = {
 static const char dmenufont[] = "Fantasque Sans Mono:style=Regular:size=12";
 
 static const int horizpadbar = 10; /* horizontal padding for statusbar */
-static const int vertpadbar = 5;   /* vertical padding for statusbar */
+static const int vertpadbar = 0;   /* vertical padding for statusbar */
 
 static char normbgcolor[] = "#222222";
 static char normbordercolor[] = "#444444";
@@ -65,12 +65,12 @@ static const char *tags[] = {"", "", "", "ﴔ", "", ""};
 static const char *tagsel[][2][2] = {
     /*      norm                          sel       */
     /*  fg          bg              fg          bg  */
-    {{"#F9E2AF", "#1e1e2e"}, {"#F9E2AF", "#1e1e2e"}},
-    {{"#F5C2E7", "#1e1e2e"}, {"#F5C2E7", "#1e1e2e"}},
-    {{"#94E2D5", "#1e1e2e"}, {"#94E2D5", "#1e1e2e"}},
-    {{"#A6E3A1", "#1e1e2e"}, {"#A6E3A1", "#1e1e2e"}},
-    {{"#F38BA8", "#1e1e2e"}, {"#F38BA8", "#1e1e2e"}},
-    {{"#CDD6F4", "#1e1e2e"}, {"#CDD6F4", "#1e1e2e"}},
+    {{"#F9E2AF", "#1e1e2e"}, {"#F9E2AF", "#433F44"}},
+    {{"#F5C2E7", "#1e1e2e"}, {"#F5C2E7", "#42394D"}},
+    {{"#94E2D5", "#1e1e2e"}, {"#94E2D5", "#323F4A"}},
+    {{"#A6E3A1", "#1e1e2e"}, {"#A6E3A1", "#353F41"}},
+    {{"#F38BA8", "#1e1e2e"}, {"#F38BA8", "#423042"}},
+    {{"#CDD6F4", "#1e1e2e"}, {"#CDD6F4", "#3B3D4F"}},
 
 };
 
@@ -129,6 +129,15 @@ static char dmenumon[2] =
 static const char *dmenucmd[] = {"dmenu_run", "-m",      dmenumon,
                                  "-fn",       dmenufont, NULL};
 static const char *termcmd[] = {"alacritty", NULL};
+static const char scratchpadname[] = "scratchpad";
+static const char *scratchpadcmd[] = {"alacritty",
+                                      "-t",
+                                      scratchpadname,
+                                      "-o",
+                                      "window.dimensions.lines=34",
+                                      "-o",
+                                      "window.dimensions.columns=120",
+                                      NULL};
 
 static Key keys[] = {
     /* modifier                     key        function        argument */
@@ -146,6 +155,7 @@ static Key keys[] = {
     {MODKEY | ShiftMask, XK_j, spawn, SHCMD("mpc volume -1")},
     {MODKEY | ShiftMask, XK_k, spawn, SHCMD("mpc volume +1")},
     {MODKEY | ShiftMask, XK_z, spawn, SHCMD("slock")},
+    {MODKEY, XK_grave, togglescratch, {.v = scratchpadcmd}},
     {MODKEY | ShiftMask, XK_x, spawn,
      SHCMD("$HOME/.config/eww/dashboard/scripts/weather_info --getdata && "
            "$HOME/.config/eww/dashboard/launch_dashboard")},

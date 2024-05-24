@@ -30,6 +30,7 @@ refresh() {
 #rerender image when changed
 refresh
 while  true; do
+  #TODO: Make it check if music is actually playing
   COVER=$(get_cover);
   cmp --silent $old $COVER || refresh
 done
